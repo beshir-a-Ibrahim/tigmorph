@@ -4,7 +4,7 @@ build-backend = "setuptools.build_meta"
 
 [project]
 name = "tigmorph"
-version = "2.0.0"
+version = "2.1.0"
 description = "Morphological analyzer and generator for Tigre (Ge'ez script), built on Raz (1973)"
 readme = "README.md"
 requires-python = ">=3.8"

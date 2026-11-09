@@ -1,11 +1,16 @@
 """Command line:  python -m tigmorph ልቀትል ኢትቅተል   |   python -m tigmorph --latin ləqattəl
                  python -m tigmorph --gen q-t-l Type=A Deriv=Base TAM=Impf Subj=3SgM
-                 python -m tigmorph --guess ዘረጠ        (force the guesser)"""
+                 python -m tigmorph --guess ዘረጠ        (force the guesser)
+                 python -m tigmorph normalize corpus.txt -o corpus.norm.txt --report report.md"""
 import sys, argparse
 from .analyzer import Analyzer
 
 
 def main(argv=None):
+    argv = sys.argv[1:] if argv is None else argv
+    if argv and argv[0] == 'normalize':
+        from .normalize import cli
+        return cli(argv[1:])
     ap = argparse.ArgumentParser(prog='tigmorph')
     ap.add_argument('words', nargs='*')
     ap.add_argument('--latin', action='store_true', help='input is Raz transcription')

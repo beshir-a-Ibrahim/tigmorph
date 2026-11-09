@@ -79,6 +79,39 @@ A.generate('q-t-l', {'Type': 'A', 'Deriv': 'Base', 'TAM': 'Perf', 'Subj': '3SgF'
 `analyze` returns readings best first. `weight` is the ranking score relative to the best reading. The tags are
 documented in [docs/TAGS.md](docs/TAGS.md).
 
+## Normalize a corpus
+
+Text collected from many sources writes the same word in several ways (ሀለ / ህለ, ይዐለ / ኢዐለ / የዐለ, ከፎ / ከአፎ,
+ሠ for ሰ, ፡ between words, `::` for ።). `tigmorph normalize` writes every word in one standard spelling, so a corpus
+built from several sources has one type per word.
+
+```sh
+tigmorph normalize corpus.txt -o corpus.norm.txt --report report.md --log changes.tsv
+tigmorph normalize data.jsonl --field text -o data.norm.jsonl --keep-original
+tigmorph normalize a.txt b.csv c.parquet --column text -o normalized/     # parquet needs pyarrow
+```
+
+```python
+from tigmorph import Normalizer
+N = Normalizer()                    # level='safe'
+N('ህለ እት ዓድ፡ሠብ:: ኢዐለ')            # 'ሀለ እት ዓድ ሰብ። ይዐለ'
+```
+
+Levels:
+
+- `chars`: character level only. Unicode NFC, letters with one sound in Tigre (ሠ→ሰ, ፀ→ጸ, ኀ→ሐ), ፡ as a space,
+  Ge'ez punctuation, spaces.
+- `safe` (default): `chars` plus the spelling table, but only for pairs that tigmorph reads as the same word and
+  that differ only by a known free alternation. These alternations are the vowel on a laryngal (ሀ/ህ, አ/ኣ, ሐ/ሓ,
+  ዐ/ዓ), an inserted አ, ኸ/ከ, ቐ/ቀ, and the negative ይ-/የ-/ኢ-.
+- `full`: every row of the table, including pairs that differ in other letters (column `kind` = `form`). Review
+  those first.
+
+The table shipped with the package (`tigmorph/fst/standard.tsv`) was learned from the BeitTigreAI corpus. In each
+group of spellings of one word, the most frequent spelling is the standard. It is a plain TSV, so you can edit it,
+or learn your own table with `tigmorph normalize --learn my_table.tsv corpus/*.txt` and pass it with `--table`.
+Normalization is idempotent, so running it twice changes nothing more.
+
 ## Accuracy
 
 | Test | Words | Analysed | Best reading right |

@@ -1,7 +1,7 @@
 cff-version: 1.2.0
 message: "If you use tigmorph, please cite it as below, and cite Raz (1973), whose grammar it implements."
 title: "tigmorph: a morphological analyzer for Tigre"
-version: 2.0.0
+version: 2.1.0
 date-released: 2026-11-09
 license: MIT
 authors:

@@ -1,5 +1,13 @@
 # Changelog
 
+## 2.1.0 — 2026-11-09
+Spelling normalizer.
+- `tigmorph.Normalizer` and `tigmorph normalize`: write Tigre text in one standard spelling. Levels `chars`, `safe`
+  and `full`. Reads txt, jsonl, csv, tsv and parquet. Options to keep the original text, log every change and write
+  a before/after report.
+- Spelling table learned from the BeitTigreAI corpus (`tigmorph/fst/standard.tsv`, 9,709 pairs, 2,152 safe).
+- `Normalizer.learn` / `--learn` learns a table from your own corpus.
+
 ## 2.0.0 — 2026-11-09
 All word classes.
 - Nouns, adjectives and names: Raz Ch. 2 nouns (plurals, gender, irregular possessives) and Tigre Wiktionary entries;
