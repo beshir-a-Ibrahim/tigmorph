@@ -12,6 +12,7 @@ Levels
          reading agrees on that standard, and (3) the two spellings differ only by a known free alternation of
          Tigre writing: the vowel written on a laryngal (ሀ/ህ, አ/ኣ, ሐ/ሓ, ዐ/ዓ), an inserted አ (ለአፍህም / ለፍህም),
          ኸ/ከ, ቐ/ቀ, and the negative prefix ይ-/የ-/ኢ-. This is the default.
+         Pairs confirmed by native-speaker review (kind 'reviewed', fst/standard_review.tsv) are applied too.
   full   chars + every row of the table, including words that differ in other letters (kind 'form', e.g.
          ቃድር / ቀድር) and words with competing readings. Review the table before using this level.
 
@@ -30,6 +31,16 @@ from .fidel import decompose, to_fidel
 
 HERE = os.path.dirname(__file__)
 DEFAULT_TABLE = os.path.join(HERE, 'fst', 'standard.tsv')
+DEFAULT_REVIEW = os.path.join(HERE, 'fst', 'standard_review.tsv')
+
+
+def load_review(path=DEFAULT_REVIEW):
+    """(variant, standard) -> 'same' | 'different', from a reviewed TSV (lines starting with # are comments)."""
+    if not path or not os.path.exists(path):
+        return {}
+    with open(path, encoding='utf-8') as f:
+        lines = [l for l in f if not l.startswith('#')]
+    return {(r['variant'], r['standard']): r['verdict'] for r in csv.DictReader(lines, delimiter='\t')}
 WORD = re.compile(r'[ሀ-ፚᎀ-᎙ⶀ-ⷞꬁ-ꬮ]+')
 
 # letters that have the same sound in Tigre: ሠ-row -> ሰ-row, ፀ-row -> ጸ-row, ኀ-row -> ሐ-row
@@ -123,8 +134,10 @@ class Normalizer:
                 self.map[r['variant']] = r['standard']
 
     @staticmethod
-    def learn(texts, analyzer=None, min_count=2, margin=1.0, out=None, progress=False):
-        """Learn a variant -> standard table from an iterable of texts (lines). Returns the rows."""
+    def learn(texts, analyzer=None, min_count=2, margin=1.0, out=None, progress=False, review=DEFAULT_REVIEW):
+        """Learn a variant -> standard table from an iterable of texts (lines). Returns the rows.
+        review: TSV of native-speaker verdicts; 'same' pairs are always applied, 'different' pairs never merged."""
+        rev = load_review(review)
         from .analyzer import Analyzer
         A = analyzer or Analyzer()
         cnt = Counter()
@@ -152,10 +165,21 @@ class Normalizer:
             for w, c in v:
                 if w == std:
                     continue
-                kind = 'spelling' if _canon(w) == _canon(std) else 'form'
-                safe = kind == 'spelling' and all(std_of_key.get(k2) == std for k2 in near[w])
+                verdict = rev.get((w, std))
+                if verdict == 'different':
+                    continue
+                if verdict == 'same':
+                    kind, safe = 'reviewed', True
+                else:
+                    kind = 'spelling' if _canon(w) == _canon(std) else 'form'
+                    safe = kind == 'spelling' and all(std_of_key.get(k2) == std for k2 in near[w])
                 rows.append(dict(variant=w, standard=std, count_variant=c, count_standard=cstd,
                                  kind=kind, safe='yes' if safe else 'no'))
+        have = {r['variant'] for r in rows}
+        for (w, std), verdict in rev.items():          # reviewed pairs the analyzer did not group
+            if verdict == 'same' and w not in have and cnt[w] and cnt[std]:
+                rows.append(dict(variant=w, standard=std, count_variant=cnt[w], count_standard=cnt[std],
+                                 kind='reviewed', safe='yes'))
         rows.sort(key=lambda r: -r['count_variant'])
         if out:
             with open(out, 'w', encoding='utf-8', newline='') as f:

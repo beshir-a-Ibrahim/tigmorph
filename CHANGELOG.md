@@ -5,7 +5,8 @@ Spelling normalizer.
 - `tigmorph.Normalizer` and `tigmorph normalize`: write Tigre text in one standard spelling. Levels `chars`, `safe`
   and `full`. Reads txt, jsonl, csv, tsv and parquet. Options to keep the original text, log every change and write
   a before/after report.
-- Spelling table learned from the BeitTigreAI corpus (`tigmorph/fst/standard.tsv`, 9,709 pairs, 2,152 safe).
+- Spelling table learned from the BeitTigreAI corpus (`tigmorph/fst/standard.tsv`, 9,680 pairs, 2,220 applied by
+  default), with 97 pairs checked by a native speaker (`tigmorph/fst/standard_review.tsv`).
 - `Normalizer.learn` / `--learn` learns a table from your own corpus.
 
 ## 2.0.0 — 2026-11-09

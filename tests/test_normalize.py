@@ -16,9 +16,15 @@ def test_words(w, std):
     assert N(w) == std
 
 
+def test_reviewed_pairs():
+    assert N('ቃድር') == 'ቀድር'                 # reviewed: same word
+    assert N('ፋግር') == 'ፋግር'                 # reviewed: different words, never merged
+    assert Normalizer('full')('ፋግር') == 'ፋግር'
+
+
 def test_form_pairs_only_at_full():
-    assert N('ቃድር') == 'ቃድር'
-    assert Normalizer('full')('ቃድር') == 'ቀድር'
+    assert N('ብዙሕ') == 'ብዙሕ'
+    assert Normalizer('full')('ብዙሕ') == 'ብዞሕ'
 
 
 def test_chars():
@@ -46,7 +52,7 @@ def test_table_safe_rows_are_spelling():
     import csv
     from tigmorph.normalize import DEFAULT_TABLE
     for r in csv.DictReader(open(DEFAULT_TABLE, encoding='utf-8'), delimiter='\t'):
-        if r['safe'] == 'yes':
+        if r['safe'] == 'yes' and r['kind'] != 'reviewed':
             assert r['kind'] == 'spelling'
             assert _canon(r['variant']) == _canon(r['standard'])
 
