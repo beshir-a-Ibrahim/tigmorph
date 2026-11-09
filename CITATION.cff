@@ -1,0 +1,31 @@
+cff-version: 1.2.0
+message: "If you use tigmorph, please cite it as below, and cite Raz (1973), whose grammar it implements."
+title: "tigmorph: a morphological analyzer for Tigre"
+version: 2.0.0
+date-released: 2026-11-09
+license: MIT
+authors:
+  - family-names: Ibrahim
+    given-names: Beshir
+keywords: [Tigre, morphology, morphological analysis, finite-state, Ethiopic, Ge'ez script, Semitic]
+references:
+  - type: thesis
+    title: "A Descriptive Study of Tigre Grammar"
+    authors:
+      - family-names: Raz
+        given-names: Shlomo
+    year: 1973
+    thesis-type: "PhD thesis"
+    institution:
+      name: "University of London"
+  - type: dataset
+    title: "Tigre monolingual text"
+    authors:
+      - name: BeitTigreAI
+    url: "https://huggingface.co/datasets/BeitTigreAI/tigre-data-monolingual-text"
+    license: CC-BY-4.0
+  - type: dataset
+    title: "Tigre Wiktionary (Wikimedia Incubator, Wt/tig)"
+    authors:
+      - name: "Tigre Wiktionary contributors"
+    license: CC-BY-SA-4.0

@@ -1,0 +1,96 @@
+# Raz (1973) Ch. 2 deverbal nominals: participles (§ 2.7.1), agent nouns (§ 2.7.1 d), infinitives (§ 2.7.2).
+# form <TAB> root <TAB> type <TAB> deriv <TAB> TAM <TAB> gender/number (SgM, SgF, PlM, PlF) <TAB> source
+šākər	š-k-r	A	Base	PartAct	SgM	T183
+ḥātər	ḥ-t-r	A	Base	PartAct	SgM	T183
+nāfəʿ	n-f-ʿ	A	Base	PartAct	SgM	T183
+ḥāləf	ḥ-l-f	A	Base	PartAct	SgM	T183
+qābəl	q-b-l	A	Base	PartAct	SgM	T183
+qāblat	q-b-l	A	Base	PartAct	SgF	T183
+qāblām	q-b-l	A	Base	PartAct	PlM	T183
+qāblāt	q-b-l	A	Base	PartAct	PlF	T183
+kābər	k-b-r	A	Base	PartAct	SgM	§2.7.1 a
+kābrat	k-b-r	A	Base	PartAct	SgF	§2.7.1 a
+ḥāyəs	ḥ-y-s	A	Base	PartAct	SgM	§2.7.1 a
+ḥāysat	ḥ-y-s	A	Base	PartAct	SgF	§2.7.1 a
+səʼən	s-ʼ-n	A	Base	PartAct	SgM	§2.7.1 a
+ləhəb	l-h-b	A	Base	PartAct	SgM	§2.7.1 a
+wəhəz	w-h-z	A	Base	PartAct	SgM	§2.7.1 a
+səhəl	s-h-l	A	Base	PartAct	SgM	§2.7.1 a
+wāqi	w-q-y	A	Base	PartAct	SgM	§2.7.1 a
+wāqyat	w-q-y	A	Base	PartAct	SgF	§2.7.1 a
+rāwi	r-w-y	A	Base	PartAct	SgM	§2.7.1 a
+rāwyat	r-w-y	A	Base	PartAct	SgF	§2.7.1 a
+qərub	q-r-b	A	Base	PartPass	SgM	T190
+qərbət	q-r-b	A	Base	PartPass	SgF	T190
+qərəb	q-r-b	A	Base	PartPass	SgF	T190
+qərubām	q-r-b	A	Base	PartPass	PlM	T190
+qərubāt	q-r-b	A	Base	PartPass	PlF	T190
+kəbud	k-b-d	A	Base	PartPass	SgM	T190
+kəbdət	k-b-d	A	Base	PartPass	SgF	T190
+kəbudāt	k-b-d	A	Base	PartPass	PlF	T190
+ləmud	l-m-d	A	Base	PartPass	SgM	T190
+səbur	s-b-r	A	Base	PartPass	SgM	T190
+ʼəsur	ʼ-s-r	A	Base	PartPass	SgM	T190
+bəšul	b-š-l	A	Base	PartPass	SgM	T190
+rəgum	r-g-m	A	Base	PartPass	SgM	T190
+səbuk	s-b-k	A	Base	PartPass	SgM	T190
+səgub	s-g-b	A	Base	PartPass	SgM	T190
+həfun	h-f-n	A	Base	PartPass	SgM	T190
+məhur	m-h-r	A	Base	PartPass	SgM	T190
+gəruh	g-r-h	A	Base	PartPass	SgM	T191
+gərhām	g-r-h	A	Base	PartPass	PlM	T191
+bəzuḥ	b-z-ḥ	A	Base	PartPass	SgM	T191
+bəzḥām	b-z-ḥ	A	Base	PartPass	PlM	T191
+bəzḥāt	b-z-ḥ	A	Base	PartPass	PlF	T191
+ḥəruy	ḥ-r-y	A	Base	PartPass	SgM	T192
+ḥərit	ḥ-r-y	A	Base	PartPass	SgF	T192
+ḥəruyām	ḥ-r-y	A	Base	PartPass	PlM	T192
+qəduy	q-d-y	A	Base	PartPass	SgM	T192
+qədit	q-d-y	A	Base	PartPass	SgF	T192
+gərrum	g-r-m	B	Base	PartPass	SgM	T194
+gərrəm	g-r-m	B	Base	PartPass	SgF	T194
+gərrəmət	g-r-m	B	Base	PartPass	SgF	T194
+gərrumām	g-r-m	B	Base	PartPass	PlM	T194
+gərrumāt	g-r-m	B	Base	PartPass	PlF	T194
+qəddus	q-d-s	B	Base	PartPass	SgM	T194
+qəfful	q-f-l	B	Base	PartPass	SgM	T194
+dərrub	d-r-b	B	Base	PartPass	SgM	T194
+ṭəlluq	ṭ-l-q	B	Base	PartPass	SgM	T194
+zəbbun	z-b-n	B	Base	PartPass	SgM	T194
+ḥəbbus	ḥ-b-s	B	Base	PartPass	SgM	T194
+lubus	l-b-s	C	Base	PartPass	SgM	T195
+lubsət	l-b-s	C	Base	PartPass	SgF	T195
+lubusāt	l-b-s	C	Base	PartPass	PlF	T195
+ḥurud	ḥ-r-d	C	Base	PartPass	SgM	T195
+subur	s-b-r	C	Base	PartPass	SgM	T195
+ḥubur	ḥ-b-r	C	Base	PartPass	SgM	T195
+maʼamrāy	ʼ-m-r	B	Base	Agent	SgM	T184
+maʼamrāyt	ʼ-m-r	B	Base	Agent	SgF	T184
+maʼamrat	ʼ-m-r	B	Base	Agent	PlM	T184
+masalfāy	s-l-f	B	Base	Agent	SgM	T184
+mafargāy	f-r-g	B	Base	Agent	SgM	T184
+maḥamsāy	ḥ-m-s	B	Base	Agent	SgM	T184
+masāṭrāy	s-ṭ-r	C	Base	Agent	SgM	T184
+matkabbətāy	k-b-t	A	tə	Agent	SgM	T184
+matgāmrāy	g-m-r	C	tə	Agent	SgM	T184
+maqsənāy	q-s-n	A	ʼa	Agent	SgM	T184
+mamṣəʼāy	m-ṣ-ʼ	A	ʼa	Agent	SgM	T184
+mawlədāyt	w-l-d	A	ʼa	Agent	SgF	T184
+kātbāy	k-t-b	A	Base	Agent	SgM	§2.7.1 d
+ḥarsāy	ḥ-r-s	A	Base	Agent	SgM	§2.7.1 d
+nadiq	n-d-q	A	Base	Inf	SgM	§2.7.2 a
+nədqat	n-d-q	A	Base	Inf	SgM	§2.7.2 a
+nədqo	n-d-q	A	Base	Inf	SgM	§2.7.2 a
+məndāq	n-d-q	A	Base	Inf	SgM	§2.7.2 a
+ḥasib	ḥ-s-b	A	Base	Inf	SgM	§2.7.2 a
+ḥəsbat	ḥ-s-b	A	Base	Inf	SgM	§2.7.2 a
+ḥəsbe	ḥ-s-b	A	Base	Inf	SgM	§2.7.2 a
+qərʼān	q-r-ʼ	A	Base	Inf	SgM	T212
+ṭəlmān	ṭ-l-m	A	Base	Inf	SgM	T212
+ʿallabot	ʿ-l-b	B	Base	Inf	SgM	T213
+ḥaddasot	ḥ-d-s	B	Base	Inf	SgM	T213
+sāqalot	s-q-l	C	Base	Inf	SgM	T213
+ḥābarot	ḥ-b-r	C	Base	Inf	SgM	T213
+ʼalbasot	l-b-s	A	ʼa	Inf	SgM	T214
+ʼarqaqot	r-q-q	A	ʼa	Inf	SgM	T214
+maktabi	k-t-b	A	Base	Instr	SgM	T222

@@ -1,0 +1,34 @@
+[build-system]
+requires = ["setuptools>=61"]
+build-backend = "setuptools.build_meta"
+
+[project]
+name = "tigmorph"
+version = "2.0.0"
+description = "Morphological analyzer and generator for Tigre (Ge'ez script), built on Raz (1973)"
+readme = "README.md"
+requires-python = ">=3.8"
+license = {text = "MIT (code); data: see LICENSE-DATA.md"}
+authors = [{name = "Beshir Ibrahim"}]
+keywords = ["Tigre", "morphology", "morphological analyzer", "Ethiopic", "Geez", "finite-state", "NLP"]
+classifiers = [
+    "Programming Language :: Python :: 3",
+    "License :: OSI Approved :: MIT License",
+    "Operating System :: OS Independent",
+    "Topic :: Text Processing :: Linguistic",
+    "Natural Language :: Other",
+]
+dependencies = []          # the run time is pure Python
+
+[project.optional-dependencies]
+build = ["pynini>=2.1.5", "openpyxl"]  # only to recompile the grammar / lexicon: python -m tigmorph.build
+test = ["pytest"]
+
+[project.scripts]
+tigmorph = "tigmorph.__main__:main"
+
+[tool.setuptools]
+packages = ["tigmorph"]
+
+[tool.setuptools.package-data]
+tigmorph = ["fst/*.bin", "fst/*.json", "fst/*.tsv"]

@@ -1,0 +1,1559 @@
+# tigmorph gold standard — Raz (1973), Chapter 5: verb morphology
+# Hand-curated from the full transcription. Forms are in Raz's Latin transcription (gemination,
+# ə and vowel length visible); Ge'ez is derived mechanically by tigmorph.fidel.
+#
+# FORMAT
+#   @ lemma | root=… | type=A|B|C|D | deriv=base|tə|ʼa|ʼat|ʼatta|ʼan|ʼas|ʼattan|ʼattas|ʼasta | sec=§ | gloss=…
+#   <slot>: <sg cells> | <pl cells>        full paradigm row (sg: 1sg 2sm 2sf 3sm 3sf; pl: 1pl 2pm 2pf 3pm 3pf)
+#   imp: 2sm 2sf 2pm 2pf                   imperative
+#   <slot>.<person>[>obj]: form            single cell (obj = object person: 1sg 1pl 2sm 2sf 2pm 2pf 3sm 3sf 3pm 3pf)
+#   slots: perf impf juss ij (= impf and juss identical) imp; prefix neg. = negated, colloq. = prefixless imperfect
+#   cell: variants separated by ',' ; '-' = no form given ; '(ə)' = optional ə (both variants are gold)
+#   trailing  [fix: …]  = transcription/print error corrected (original shown)
+#   trailing  [rule]    = form stated by Raz's rule ("as 1st person singular" etc.), not printed as a form
+#
+# ---------------------------------------------------------------- § 5.3 strong triradicals
+@ qanṣa | root=q-n-ṣ | type=A | deriv=base | sec=5.3.2 | gloss=to get up
+perf: qanaṣko qanaṣka qanaṣki qanṣa qanṣat | qanaṣna qanaṣkum qanaṣkən qanṣaw qanṣaya
+impf: ʼəqannəṣ təqannəṣ təqanṣi ləqannəṣ təqannəṣ | ʼənqannəṣ təqanṣo təqanṣa ləqanṣo ləqanṣa   [fix: 3sf təqannaṣ[?]]
+juss: ʼəqnaṣ təqnaṣ təqnaṣi ləqnaṣ təqnaṣ | nəqnaṣ təqnaṣo təqnaṣa ləqnaṣo ləqnaṣa
+imp: qənaṣ qənaṣi qənaṣo qənaṣa
+
+@ mazzana | root=m-z-n | type=B | deriv=base | sec=5.3.2 | gloss=to weigh
+perf: mazzanko mazzanka mazzanki mazzana mazzanat | mazzanna mazzankum mazzankən mazzanaw mazzanaya
+ij: ʼəmazzən təmazzən təmazni ləmazzən təmazzən | ʼənmazzən təmazno təmazna ləmazno ləmazna
+juss.1pl: nəmazzən
+imp: mazzən mazni mazno mazna
+
+@ kātaba | root=k-t-b | type=C | deriv=base | sec=5.3.2 | gloss=to vaccinate
+perf: kātabko kātabka kātabki kātaba kātabat | kātabna kātabkum kātabkən kātabaw kātabaya
+ij: ʼəkātəb təkātəb təkātbi ləkātəb təkātəb | ʼənkātəb təkātbo təkātba ləkātbo ləkātba
+juss.1pl: nəkātəb   [fix: nakātəb[?]; jussive 1pl prefix is nə- (§ 5.3.1)]
+imp: kātəb kātbi kātbo kātba
+
+@ balālasa | root=b-l-s | type=D | deriv=base | sec=5.3.2 | gloss=to keep on answering
+perf.3sm: balālasa
+ij.3sm: ləbalāləs
+imp.2sm: balāləs
+
+@ sarqa | root=s-r-q | type=A | deriv=base | sec=5.3.3 | gloss=to steal
+neg.perf.3sm: ʼisarqa
+
+@ faqda | root=f-q-d | type=A | deriv=base | sec=5.3.3 | gloss=to remember
+neg.impf.1sg: ʼiʼəfaqqəd
+
+@ qatla | root=q-t-l | type=A | deriv=base | sec=5.3.3 | gloss=to kill
+# negative imperative = negated jussive 2nd persons
+neg.juss.2sm: ʼitəqtal
+neg.juss.2sf: ʼitəqtali
+neg.juss.2pm: ʼitəqtalo
+neg.juss.2pf: ʼitəqtala
+
+@ fagra | root=f-g-r | type=A | deriv=base | sec=5.3.4 | gloss=to go out
+# colloquial imperfect: prefixes of 2nd/3rd persons omitted
+colloq.impf: ʼəfaggər faggər fagri faggər faggər | ʼənfaggər fagro fagra fagro fagra
+
+# ---------------------------------------------------------------- § 5.3.5 prefixed derivatives
+@ təqarrač̣a | root=q-r-č̣ | type=B | deriv=tə | sec=5.3.5.1 | gloss=to be cut off
+perf: təqarrač̣ko təqarrač̣ka təqarrač̣ki təqarrač̣a təqarrač̣at | təqarrač̣na təqarrač̣kum təqarrač̣kən təqarrač̣aw təqarrač̣aya
+ij: ʼətqarrač̣ tətqarrač̣ tətqarrač̣i lətqarrač̣ tətqarrač̣ | nətqarrač̣ tətqarrač̣o tətqarrač̣a lətqarrač̣o lətqarrač̣a   [fix: 3pf lətgarrač̣a]
+imp: təqarrač̣ təqarrač̣i təqarrač̣o təqarrač̣a
+
+@ baggasa | root=b-g-s | type=B | deriv=tə | sec=5.3.5.1 | gloss=to depart (tə- optional)
+perf.3sm: baggasa, təbaggasa
+
+@ təqābala | root=q-b-l | type=C | deriv=tə | sec=5.3.5.1 | gloss=to meet
+ij.3sm: lətqābal
+imp.2sm: təqābal
+
+@ tənabābara | root=n-b-r | type=D | deriv=tə | sec=5.3.5.1 | gloss=to live a bit on A and a bit on B
+ij.3sm: lətnabābar
+imp.2sm: tənabābar
+
+@ tədaqqaba | root=d-q-b | type=B | deriv=tə | sec=5.3.5.1 | gloss=to be strong (t assimilates)
+ij.3sm: ləddaqqab
+
+@ təsalālama | root=s-l-m | type=D | deriv=tə | sec=5.3.5.1 | gloss=to greet each other (t assimilates)
+ij.3pm: ləssalālamo
+
+@ ʼangafa | root=n-g-f | type=A | deriv=ʼa | sec=5.3.5.2 | gloss=to save, let escape
+perf: ʼangafko ʼangafka ʼangafki ʼangafa ʼangafat | ʼangafna ʼangafkum ʼangafkən ʼangafaw ʼangafaya   [fix: 3sf ʼagafat]
+impf: ʼanaggəf tanaggəf tanagfi lanaggəf tanaggəf | nanaggəf tanagfo tanagfa lanagfo lanagfa
+juss: ʼangəf tangəf tangəfi langəf tangəf | nangəf tangəfo tangəfa langəfo langəfa
+imp: ʼangəf ʼangəfi ʼangəfo ʼangəfa
+
+@ ʼabaṭṭala | root=b-ṭ-l | type=B | deriv=ʼa | sec=5.3.5.2 | gloss=to stop, bring to a standstill
+perf: ʼabaṭṭalko ʼabaṭṭalka ʼabaṭṭalki ʼabaṭṭala ʼabaṭṭalat | ʼabaṭṭalna ʼabaṭṭalkum ʼabaṭṭalkən ʼabaṭṭalaw ʼabaṭṭalaya
+ij: ʼabaṭṭəl tabaṭṭəl tabaṭli labaṭṭəl tabaṭṭəl | nabaṭṭəl tabaṭlo tabaṭla labaṭlo labaṭla
+imp: ʼabaṭṭəl ʼabaṭli ʼabaṭlo ʼabaṭla   [fix: 2pf ʿabatla; lemma printed ʼabattala]
+
+@ ʼaṣābaṭa | root=ṣ-b-ṭ | type=C | deriv=ʼa | sec=5.3.5.2 | gloss=to get hold of
+perf: ʼaṣābaṭko ʼaṣābaṭka ʼaṣābaṭki ʼaṣābaṭa ʼaṣābaṭat | ʼaṣābaṭna ʼaṣābaṭkum ʼaṣābaṭkən ʼaṣābaṭaw ʼaṣābaṭaya   [fix: 3sm aṣābaṭa, 3sf ʼasābaṭat]
+ij: ʼaṣābəṭ taṣābəṭ taṣābṭi laṣābəṭ taṣābəṭ | naṣābəṭ taṣābṭo taṣābṭa laṣābṭo laṣābṭa   [fix: 2pf ṭaṣābṭa]
+imp: ʼaṣābəṭ ʼaṣābṭi ʼaṣābṭo ʼaṣābṭa
+
+@ ʼatbaggasa | root=b-g-s | type=B | deriv=ʼat | sec=5.3.5.3 | gloss=to cause to move off
+perf: ʼatbaggasko ʼatbaggaska ʼatbaggaski ʼatbaggasa ʼatbaggasat | ʼatbaggasna ʼatbaggaskum ʼatbaggaskən ʼatbaggasaw ʼatbaggasaya
+ij: ʼatbaggəs tatbaggəs tatbagsi latbaggəs tatbaggəs | natbaggəs tatbagso tatbagsa latbagso latbagsa
+imp: ʼatbaggəs ʼatbagsi ʼatbagso ʼatbagsa
+
+@ ʼatrāsana | root=r-s-n | type=C | deriv=ʼat | sec=5.3.5.3 | gloss=to heat
+perf: ʼatrāsanko ʼatrāsanka ʼatrāsanki ʼatrāsana ʼatrāsanat | ʼatrāsanna ʼatrāsankum ʼatrāsankən ʼatrāsanaw ʼatrāsanaya   [fix: 3sf ʼatrāsant]
+ij: ʼatrāsən tatrāsən tatrāsni latrāsən tatrāsən | natrāsən tatrāsno tatrāsna latrāsno latrāsna
+imp: ʼatrāsən ʼatrāsni ʼatrāsno ʼatrāsna
+ij.3pm>3sm: latrāsuno
+
+@ ʼatqabābala | root=q-b-l | type=D | deriv=ʼat | sec=5.3.5.3 | gloss=to go to and fro
+perf: ʼatqabābalko ʼatqabābalka ʼatqabābalki ʼatqabābala ʼatqabābalat | ʼatqabābalna ʼatqabābalkum ʼatqabābalkən ʼatqabābalaw ʼatqabābalaya
+ij: ʼatqabābəl tatqabābəl tatqabābli latqabābəl tatqabābəl | natqabābəl tatqabāblo tatqabābla latqabāblo latqabābla
+imp: ʼatqabābəl ʼatqabābli ʼatqabāblo ʼatqabābla
+
+@ ʼattaqrač̣a | root=q-r-č̣ | type=A | deriv=ʼatta | sec=5.3.5.4 | gloss=to let cut off
+perf: ʼattaqrač̣ko ʼattaqrač̣ka ʼattaqrač̣ki ʼattaqrač̣a ʼattaqrač̣at | ʼattaqrač̣na ʼattaqrač̣kum ʼattaqrač̣kən ʼattaqrač̣aw ʼattaqrač̣aya
+ij: ʼattaqrəč̣ tattaqrəč̣ tattaqrəč̣i lattaqrəč̣ tattaqrəč̣ | nattaqrəč̣ tattaqrəč̣o tattaqrəč̣a lattaqrəč̣o lattaqrəč̣a   [fix: 2pm tattagrəč̣o]
+imp: ʼattaqrəč̣ ʼattaqrəč̣i ʼattaqrəč̣o ʼattaqrəč̣a
+
+@ ʼattaqābala | root=q-b-l | type=C | deriv=ʼatta | sec=5.3.5.4 | gloss=to pay attention
+perf.3sm: ʼattaqābala
+@ ʼattaqbala | root=q-b-l | type=A | deriv=ʼatta | sec=5.3.5.4 | gloss=to observe
+perf.3sm: ʼattaqbala
+ij.3sm>3sm: lattaqbəllo
+ij.3pm>3sm: lattaqbulo
+@ ʼatqābala | root=q-b-l | type=C | deriv=ʼat | sec=5.3.5.4 | gloss=to return
+perf.3sm: ʼatqābala
+@ ʼattalāmada | root=l-m-d | type=C | deriv=ʼatta | sec=5.3.5.4 | gloss=to cause to become mutually habituated
+perf.3sm: ʼattalāmada
+@ ʼattalmada | root=l-m-d | type=A | deriv=ʼatta | sec=5.3.5.4 | gloss=to cause to habituate
+perf.3sm: ʼattalmada
+@ ʼatlāmada | root=l-m-d | type=C | deriv=ʼat | sec=5.3.5.4 | gloss=to cause to become mutually habituated
+perf.3sm: ʼatlāmada
+
+# ---------------------------------------------------------------- § 5.4 laryngals
+@ ḥasba | root=ḥ-s-b | type=A | deriv=base | sec=5.4.1 | gloss=to think (no ʼə- in 1sg)
+impf.1sg: ḥassəb
+
+@ ʿāraga | root=ʿ-r-g | type=C | deriv=base | sec=5.4.1 | gloss=to lift up (C in place of ʼa-A)
+perf.3sm: ʿāraga
+@ ʿarga | root=ʿ-r-g | type=A | deriv=base | sec=5.4.1 | gloss=to ascend
+perf.3sm: ʿarga
+@ ʼatḥatama | root=ḥ-t-m | type=A | deriv=ʼat | sec=5.4.1 | gloss=to make seal
+perf.3sm: ʼatḥatama
+@ ḥatma | root=ḥ-t-m | type=A | deriv=base | sec=5.4.1 | gloss=to seal
+perf.3sm: ḥatma
+@ ʼatʼabbasa | root=ʼ-b-s | type=B | deriv=ʼat | sec=5.4.1 | gloss=to make one sin
+perf.3sm: ʼatʼabbasa
+@ ʼabbasa | root=ʼ-b-s | type=B | deriv=base | sec=5.4.1 | gloss=to sin
+perf.3sm: ʼabbasa
+@ ḥārasa | root=ḥ-r-s | type=C | deriv=base | sec=5.4.1 | gloss=to cultivate
+perf.3sm: ḥārasa
+@ ʼatḥarasa | root=ḥ-r-s | type=A | deriv=ʼat | sec=5.4.1 | gloss=to make plough
+perf.3sm: ʼatḥarasa
+@ ḥarsa | root=ḥ-r-s | type=A | deriv=base | sec=5.4.1 | gloss=to plough
+perf.3sm: ḥarsa
+
+@ ḥarda | root=ḥ-r-d | type=A | deriv=base | sec=5.4.1 | gloss=to slaughter
+juss.1sg: ḥirad
+@ ḥadga | root=ḥ-d-g | type=A | deriv=base | sec=5.4.1 | gloss=to leave
+juss.2sm: təḥədag
+juss.2sf: təḥədagi
+@ harma | root=h-r-m | type=A | deriv=base | sec=5.4.1 | gloss=to play (an instrument)
+juss.3sm: ləhəram
+@ ʿaqba | root=ʿ-q-b | type=A | deriv=base | sec=5.4.1 | gloss=to watch
+juss.3sm: ləʿəqab
+@ ʼamna | root=ʼ-m-n | type=A | deriv=base | sec=5.4.1 | gloss=to believe
+juss.2pm: təʼəmano
+
+@ ḥaṣba | root=ḥ-ṣ-b | type=A | deriv=base | sec=5.4.1.1 | gloss=to wash
+perf: ḥaṣabko ḥaṣabka ḥaṣabki ḥaṣba ḥaṣbat | ḥaṣabna ḥaṣabkum ḥaṣabkən ḥaṣbaw ḥaṣbaya
+impf: ḥaṣṣəb taḥaṣṣəb,tḥaṣṣəb taḥaṣbi laḥaṣṣəb taḥaṣṣəb | naḥaṣṣəb taḥaṣbo taḥaṣba laḥaṣbo laḥaṣba
+juss: ḥiṣab təḥəṣab təḥəṣabi ləḥəṣab təḥəṣab | nəḥəṣab təḥəṣabo təḥəṣaba ləḥəṣabo ləḥəṣaba
+imp: ḥəṣab ḥəṣabi ḥəṣabo ḥəṣaba
+colloq.impf.3pf>3sf: ḥaṣbəha   [prefixless imperfect; § 5.12.7]
+
+@ ʿaddama | root=ʿ-d-m | type=B | deriv=base | sec=5.4.1.1 | gloss=to invite
+perf: ʿaddamko ʿaddamka ʿaddamki ʿaddama ʿaddamat | ʿaddamna ʿaddamkum ʿaddamkən ʿaddamaw ʿaddamaya
+ij: ʿaddəm taʿaddəm taʿadmi laʿaddəm taʿaddəm | naʿaddəm taʿadmo taʿadma laʿadmo laʿadma
+imp: ʿaddəm ʿadmi ʿadmo ʿadma
+
+@ ḥābara | root=ḥ-b-r | type=C | deriv=base | sec=5.4.1.1 | gloss=to join
+perf: ḥābarko ḥābarka ḥābarki ḥābara ḥābarat | ḥābarna ḥābarkum ḥābarkən ḥābaraw ḥābaraya
+ij: ḥābər taḥābər taḥābri laḥābər taḥābər | naḥābər taḥābro taḥābra laḥābro laḥābra   [fix: 1pl naḥābar, 2sm taḥābar, 3pf laḥābro]
+imp: ḥābər ḥābri ḥābro ḥābra
+
+@ harārama | root=h-r-m | type=D | deriv=base | sec=5.4.1.1 | gloss=to weed here and there
+ij.3sm: laharārəm
+imp.2sm: harārəm
+
+@ taḥaṣṣaba | root=ḥ-ṣ-b | type=B | deriv=tə | sec=5.4.1.2 | gloss=to wash oneself
+perf.3sm: taḥaṣṣaba
+ij.3sm: lətḥaṣṣab
+imp.2sm: taḥaṣṣab
+@ taʿārafa | root=ʿ-r-f | type=C | deriv=tə | sec=5.4.1.2 | gloss=to visit
+perf.3sm: taʿārafa
+ij.3sm: lətʿāraf
+imp.2sm: taʿāraf
+@ ʼatḥalafa | root=ḥ-l-f | type=A | deriv=ʼat | sec=5.4.1.2 | gloss=to cause to pass
+perf.3sm: ʼatḥalafa
+ij.3sm: latḥaləf
+imp.2sm: ʼatḥaləf
+@ ʼatḥaddasa | root=ḥ-d-s | type=B | deriv=ʼat | sec=5.4.1.2 | gloss=to cause to renew
+perf.3sm: ʼatḥaddasa
+ij.3sm: latḥaddəs
+imp.2sm: ʼatḥaddəs
+@ ʼatḥādaga | root=ḥ-d-g | type=C | deriv=ʼat | sec=5.4.1.2 | gloss=to cause to leave one another
+perf.3sm: ʼatḥādaga
+ij.3sm: latḥādəg
+imp.2sm: ʼatḥādəg
+
+@ ṣaʿana | root=ṣ-ʿ-n | type=A | deriv=base | sec=5.4.2 | gloss=to load
+perf: ṣaʿanko ṣaʿanka ṣaʿanki ṣaʿana ṣaʿanat | ṣaʿanna ṣaʿankum ṣaʿankən ṣaʿanaw ṣaʿanaya
+impf: ʼəṣʿən təṣʿən təṣʿəni ləṣʿən təṣʿən | ʼənəṣʿən,nəṣʿən təṣʿəno təṣʿəna ləṣʿəno ləṣʿəna
+juss: ʼəṣʿan təṣʿan təṣʿani ləṣʿan təṣʿan | nəṣʿan təṣʿano təṣʿana ləṣʿano ləṣʿana   [fix: 3sm ləsʿan]
+imp: ṣaʿan ṣaʿani ṣaʿano ṣaʿana
+imp.2pm>1sg: ṣaʿanune   [-ne variant of -ni, § 5.12.7]
+
+@ təbaʼasa | root=b-ʼ-s | type=A | deriv=tə | sec=5.4.2 | gloss=to quarrel (= təbāʼasa)
+perf.3sm: təbaʼasa, təbāʼasa
+ij.3sm: lətbaʼas
+imp.2sm: təbaʼas
+@ qaḥara | root=q-ḥ-r | type=A | deriv=base | sec=5.4.2 | gloss=to get excited (= qāḥara)
+perf.3sm: qaḥara, qāḥara
+@ təsaʿara | root=s-ʿ-r | type=A | deriv=tə | sec=5.4.2 | gloss=to be deposed (= təsāʿara)
+perf.3sm: təsaʿara, təsāʿara
+@ ʼasḥata | root=s-ḥ-t | type=A | deriv=ʼa | sec=5.4.2 | gloss=to mislead
+perf.3sm: ʼasḥata
+ij.3sm: lasḥət
+imp.2sm: ʼasḥət
+@ ʼatlaḥama | root=l-ḥ-m | type=A | deriv=ʼat | sec=5.4.2 | gloss=to close (gloss cut off in scan)
+perf.3sm: ʼatlaḥama
+ij.3sm: latləḥəm
+imp.2sm: ʼatləḥəm
+
+@ balʿa | root=b-l-ʿ | type=A | deriv=base | sec=5.4.3.1 | gloss=to eat
+perf: balʿako balʿaka balʿaki balʿa balʿat | balʿana balʿakum balʿakən balʿaw balʿaya
+impf: ʼəballəʿ təballəʿ təballəʿi,təballiʿ ləballəʿ təballəʿ | ʼənballəʿ təballəʿu,təballuʿ təballəʿa ləballəʿu,ləballuʿ ləballəʿa   [fix: table rows misaligned in transcription; 1pl ʼənballəʼ]
+juss: ʼəblaʿ təblaʿ təbləʿi,təbliʿ ləblaʿ təblaʿ | nəblaʿ təbləʿu,təbluʿ təbləʿa ləbləʿu,ləbluʿ ləbləʿa
+imp: bəlaʿ bəlʿi,bəliʿ bəlʿu,bəluʿ bəlʿa
+@ farha | root=f-r-h | type=A | deriv=base | sec=5.4.3 | gloss=to be afraid
+impf.3pm: ləfarrəhu, ləfarruh
+@ maṣʼa | root=m-ṣ-ʼ | type=A | deriv=base | sec=5.4.3 | gloss=to come
+impf.3pm: ləmaṣṣəʼu, ləmaṣṣuʼ
+impf.1sg>3sm: ʼəmaṣṣəʼo
+impf.1sg>2sm: ʼəmaṣṣəʼakka, ʼəmaṣṣʼakka
+juss.2sm>1sg: təmṣəʼanni
+juss.3sm>3sm: ləmṣəʼo
+@ baṣḥa | root=b-ṣ-ḥ | type=A | deriv=base | sec=5.4.3 | gloss=to arrive
+impf.3pm: ləbaṣṣəḥu, ləbaṣṣuḥ
+@ samʿa | root=s-m-ʿ | type=A | deriv=base | sec=5.4.3 | gloss=to hear
+impf.2sf: təsamməʿi, təsammiʿ
+impf.2sf>3sm: təsamməʿiyo
+impf.2pm>3sm: təsamməʿəwo, təsammʿəwo
+impf.3pm>3sm: ləsamməʿəwo, ləsammʿəwo
+juss.2sf>3sm: təsməʿiyo
+juss.2pm>3sm: təsməʿəwo
+imp.2sm>3sm: səmʿo
+imp.2sf>3sm: səmʿiyo
+imp.2pm>3sm: səmʿəwo
+imp.2pf>3sm: səmʿahu
+neg.perf.1pl>3sf: ʼisamʿanəha
+@ ṣamʼa | root=ṣ-m-ʼ | type=A | deriv=base | sec=5.4.3 | gloss=to be thirsty
+neg.juss.3pm: ʼiləṣmuʼ, ʼiləṣməʼu   [fix: printed ʼiləsmuʼ with s]
+@ nasʼa | root=n-s-ʼ | type=A | deriv=base | sec=5.4.3 | gloss=to take
+imp.2pm: nəsʼu, nəsuʼ
+perf.3pm>1pl: nasʼayuna
+@ šamməʿa | root=š-m-ʿ | type=B | deriv=base | sec=5.4.3.2 | gloss=to daub with wax
+perf.1sg: šamməʿako
+perf.3sm: šamməʿa
+ij.3sm: ləšamməʿ
+ij.3pm: ləšamməʿu, ləšammuʿ
+imp.2sm: šamməʿ
+imp.2sf: šamməʿi, šammiʿ
+@ šārʿa | root=š-r-ʿ | type=C | deriv=base | sec=5.4.3.3 | gloss=to shave
+perf.3sm: šārʿa, šārəʿa
+ij.3sm: ləšārəʿ
+ij.2sf: təšārʿi, təšārəʿi
+imp.2sm: šārəʿ
+imp.2pm: šārʿu, šārəʿu
+@ təmalləʼa | root=m-l-ʼ | type=B | deriv=tə | sec=5.4.3.4 | gloss=to be filled
+perf.3sm: təmalləʼa
+ij.3sm: lətmallaʼ
+imp.2sm: təmallaʼ
+@ təbāləḥa | root=b-l-ḥ | type=C | deriv=tə | sec=5.4.3.4 | gloss=to be freed
+perf.3sm: təbāləḥa
+ij.3sm: lətbālaḥ
+imp.2sm: təbālaḥ
+@ ʼasməʿa | root=s-m-ʿ | type=A | deriv=ʼa | sec=5.4.3.4 | gloss=to make hear
+perf.3sm: ʼasməʿa
+impf.3sm: lasamməʿ
+juss.3sm: lasməʿ
+imp.2sm: ʼasməʿ
+@ ʼašalləḥa | root=š-l-ḥ | type=B | deriv=ʼa | sec=5.4.3.4 | gloss=to make lean
+perf.3sm: ʼašalləḥa
+ij.3sm: lašalləḥ
+imp.2sm: ʼašalləḥ
+@ ʼaṭāqəʿa | root=ṭ-q-ʿ | type=C | deriv=ʼa | sec=5.4.3.4 | gloss=to clap hands
+perf.3sm: ʼaṭāqəʿa
+ij.3sm: laṭāqəʿ
+imp.2sm: ʼaṭāqəʿ
+@ ʼatmāṣəʼa | root=m-ṣ-ʼ | type=C | deriv=ʼat | sec=5.4.3.4 | gloss=to make meet
+perf.3sm: ʼatmāṣəʼa   [fix: printed ʼatmāsəʼa]
+ij.3sm: latmāṣəʼ
+imp.2sm: ʼatmāṣəʼ
+@ ʼattalməʿa | root=l-m-ʿ | type=A | deriv=ʼatta | sec=5.4.3.4 | gloss=to make blossom
+perf.3sm: ʼattalməʿa
+ij.3sm: lattalməʿ
+imp.2sm: ʼattalməʿ
+@ ʼattaqalləʿa | root=q-l-ʿ | type=B | deriv=ʼatta | sec=5.4.3.4 | gloss=to cause premature birth
+perf.3sm: ʼattaqalləʿa
+ij.3sm: lattaqalləʿ
+imp.2sm: ʼattaqalləʿ
+@ ʼamṣəʼa | root=m-ṣ-ʼ | type=A | deriv=ʼa | sec=5.12.4 | gloss=to bring
+perf.3pm>3sf: ʼamṣəʼawa
+impf.3pm>3sm: lamaṣṣəʼəwo, lamaṣṣʼəwo
+juss.3pm>3sm: lamṣəʼəwo
+@ təqārḥa | root=q-r-ḥ | type=C | deriv=tə | sec=5.12.4 | gloss=to treat
+imp.2pm>3sm: təqārḥəwo
+
+# ---------------------------------------------------------------- § 5.5 semivowels
+@ warsa | root=w-r-s | type=A | deriv=base | sec=5.5.1 | gloss=to inherit
+perf.3sm: warsa
+impf.3sm: ləwarrəs
+juss: ʼiras tiras tirasi liras tiras | niras tiraso tirasa liraso lirasa
+imp: wəras wərasi wəraso wərasa
+@ yabsa | root=y-b-s | type=A | deriv=base | sec=5.5.1 | gloss=to dry (v.i.)
+perf.3sm: yabsa
+impf.3sm: ləyabbəs
+juss: ʼibas tibas tibasi libas tibas | nibas tibaso tibasa libaso libasa
+imp: yəbas yəbasi yəbaso yəbasa
+@ walda | root=w-l-d | type=A | deriv=base | sec=5.5.1 | gloss=to bring forth
+imp.2sf: ladi
+@ warda | root=w-r-d | type=A | deriv=base | sec=5.5.1 | gloss=to descend
+imp.2sm: rad
+@ yattama | root=y-t-m | type=B | deriv=base | sec=5.5.1 | gloss=to become an orphan
+perf.3sm: yattama
+ij.3sm: ləyattəm
+@ ʼaybasa | root=y-b-s | type=A | deriv=ʼa | sec=5.5.1 | gloss=to dry (trans.)
+perf.3sm: ʼaybasa
+impf.3sm: layabbəs
+juss.3sm: laybəs
+@ təyāmama | root=y-m-m | type=C | deriv=tə | sec=5.5.1 | gloss=to decide
+perf.3sm: təyāmama
+ij.3sm: lətyāmam
+
+@ geda | root=g-y-d | type=A | deriv=base | sec=5.5.2 | gloss=to hurry
+perf: gədko gədka gədki geda gedat | gədna gədkum gədkən gedaw gedaya
+impf: ʼəgayəd,ʼəgayd təgayəd təgaydi ləgayəd təgayəd | ʼəngayəd təgaydo təgayda ləgaydo ləgayda
+juss: ʼigid tigid tigidi ligid tigid | nigid tigido tigida ligido ligida
+imp: gid gidi gido gida
+@ dora | root=d-w-r | type=A | deriv=base | sec=5.5.2 | gloss=to go around
+perf: dərko dərka dərki dora dorat | dərna dərkum dərkən doraw doraya
+impf: ʼədawər tədawər tədawri lədawər tədawər | ʼəndawər tədawro tədawra lədawro lədawra   [fix: 2sm tədawer]
+juss: ʼidur tidur tiduri lidur tidur | nidur tiduro tidura liduro lidura
+imp: dur duri duro dura
+@ qayasa | root=q-y-s | type=B | deriv=base | sec=5.5.2 | gloss=to measure
+perf.3sm: qayasa
+ij.3sm: ləqayəs
+imp.2sm: qayəs
+@ lawaṭa | root=l-w-ṭ | type=B | deriv=base | sec=5.5.2 | gloss=to exchange
+perf.3sm: lawaṭa
+ij.3sm: ləlawəṭ
+imp.2sm: lawəṭ
+@ tāyana | root=t-y-n | type=C | deriv=base | sec=5.5.2 | gloss=to explore
+perf.3sm: tāyana
+ij.3sm: lətāyən
+imp.2sm: tāyən
+@ kāwala | root=k-w-l | type=C | deriv=base | sec=5.5.2 | gloss=to guard
+perf.3sm: kāwala
+ij.3sm: ləkāwəl
+imp.2sm: kāwəl
+@ təbayana | root=b-y-n | type=B | deriv=tə | sec=5.5.2 | gloss=to recover (health)
+perf.3sm: təbayana
+ij.3sm: lətbayan
+imp.2sm: təbayan
+@ tənawaka | root=n-w-k | type=B | deriv=tə | sec=5.5.2 | gloss=to turn away
+perf.3sm: tənawaka
+ij.3sm: lətnawak
+imp.2sm: tənawak
+@ təgāyasa | root=g-y-s | type=C | deriv=tə | sec=5.5.2 | gloss=to go together
+perf.3sm: təgāyasa
+ij.3sm: lətgāyas
+imp.2sm: təgāyas
+@ təlāwaša | root=l-w-š | type=C | deriv=tə | sec=5.5.2 | gloss=to be placed
+perf.3sm: təlāwaša
+ij.3sm: lətlāwaš
+imp.2sm: təlāwaš
+@ ʼarema | root=r-y-m | type=A | deriv=ʼa | sec=5.5.2 | gloss=to remove
+perf.3sm: ʼarema
+perf.1pl: ʼarəmna
+impf.3sm: larayəm
+juss.3sm: larim
+imp.2sm: ʼarim
+@ ʼadora | root=d-w-r | type=A | deriv=ʼa | sec=5.5.2 | gloss=to make turn
+perf.3sm: ʼadora
+perf.1pl: ʼadərna
+impf.3sm: ladawər
+juss.3sm: ladur
+imp.2sm: ʼadur
+@ ʼakayana | root=k-y-n | type=B | deriv=ʼa | sec=5.5.2 | gloss=to cause to betray
+perf.3sm: ʼakayana
+ij.3sm: lakayən
+imp.2sm: ʼakayən
+@ ʼašawaka | root=š-w-k | type=B | deriv=ʼa | sec=5.5.2 | gloss=to cause trouble
+perf.3sm: ʼašawaka
+ij.3sm: lašawək
+imp.2sm: ʼašawək
+@ ʼatnāyata | root=n-y-t | type=C | deriv=ʼat | sec=5.5.2 | gloss=to encourage
+perf.3sm: ʼatnāyata
+ij.3sm: latnāyət
+imp.2sm: ʼatnāyət
+@ ʼaddāwara | root=d-w-r | type=C | deriv=ʼat | sec=5.5.2 | gloss=to turn (trans.; t assimilated)
+perf.3sm: ʼaddāwara
+ij.3sm: laddāwər
+imp.2sm: ʼaddāwər
+@ ʼattaṣwara | root=ṣ-w-r | type=A | deriv=ʼatta | sec=5.5.2 | gloss=to be carried
+perf.3sm: ʼattaṣwara
+ij.3sm: lattaṣwər
+imp.2sm: ʼattaṣwər
+
+@ mota | root=m-w-t | type=A | deriv=base | sec=5.5.2.1 | gloss=to die (w and y mixed)
+perf.3sm: mota
+perf.2sf: mətki
+impf.3sm: ləmayət
+juss.3sm: limut
+@ ʼamota | root=m-w-t | type=A | deriv=ʼa | sec=5.5.2.1 | gloss=to kill
+perf.3sm: ʼamota
+impf.3sm: lamayət
+@ ṣoma | root=ṣ-w-m | type=A | deriv=base | sec=5.5.2.1 | gloss=to fast
+perf.3sm: ṣoma
+impf.3sm: ləṣawəm, ləṣayəm
+
+@ šaqa | root=š-q-y | type=A | deriv=base | sec=5.5.3 | gloss=to work
+perf: šaqeko šaqeka šaqeki šaqa šaqet | šaqena šaqekum šaqekən šaqaw šaqaya
+impf: ʼəšaqqe təšaqqe təšaqqi ləšaqqe təšaqqe | ʼənšaqqe təšaqqu təšaqya ləšaqqu ləšaqya
+juss: ʼəšqe təšqe təšqay ləšqe təšqe | nəšqe təšqaw təšqaya ləšqaw ləšqaya
+imp: šəqe šəqay šəqaw šəqaya
+@ fassa | root=f-s-y | type=B | deriv=base | sec=5.5.3 | gloss=to cut meat for drying
+perf.3sm: fassa
+ij.3sm: ləfasse
+ij.3pm: ləfassu
+imp.2sm: fasse
+@ lāṣa | root=l-ṣ-y | type=C | deriv=base | sec=5.5.3 | gloss=to shave (trans.)
+perf.3sm: lāṣa
+ij.3sm: ləlāṣe
+imp.2sm: lāṣe
+@ təqalla | root=q-l-y | type=B | deriv=tə | sec=5.5.3 | gloss=to be roasted
+perf.3sm: təqalla
+ij.3sm: lətqalle
+ij.3pm: lətqallaw
+imp.2sm: təqalle
+@ təbāqa | root=b-q-y | type=C | deriv=tə | sec=5.5.3 | gloss=to endanger oneself
+perf.3sm: təbāqa
+ij.3sm: lətbāqe
+imp.2sm: təbāqe
+@ ʼabda | root=b-d-y | type=A | deriv=ʼa | sec=5.5.3 | gloss=to destroy
+perf.3sm: ʼabda
+impf.3sm: labadde
+impf.3pm: labaddu
+juss.3sm: labde
+juss.3pm: labdaw
+imp.2sm: ʼabde
+@ ʼatbāka | root=b-k-y | type=C | deriv=ʼat | sec=5.5.3 | gloss=to bewail the dead
+perf.3sm: ʼatbāka
+ij.3sm: latbāke
+imp.2sm: ʼatbāke
+@ ʼattansa | root=n-s-y | type=A | deriv=ʼatta | sec=5.5.3 | gloss=to listen attentively
+perf.3sm: ʼattansa
+ij.3sm: lattanse
+imp.2sm: ʼattanse
+@ ʼattanāsa | root=n-s-y | type=C | deriv=ʼatta | sec=5.5.3 | gloss=to listen attentively
+perf.3sm: ʼattanāsa
+ij.3sm: lattanāse
+imp.2sm: ʼattanāse
+@ sama | root=s-m-y | type=A | deriv=base | sec=5.12.5 | gloss=to name
+impf.2sf>3sm: təsammiyo
+impf.3sf>3sm: təsamməyo, təsammyo
+colloq.impf.3pm>3pf: samməwan, sammwan   [prefixless imperfect]
+@ kara | root=k-r-y | type=A | deriv=base | sec=5.12.5 | gloss=to put (down)
+colloq.impf.3pm>3sm: karrəwo, karrwo   [prefixless imperfect]
+juss.3sf>3sm: təkrayo
+juss.3pm>3sm: ləkrawo
+imp.2sm>3sm: kərayo
+imp.2pm>3sm: kərawo
+
+@ wada | root=w-d-y | type=A | deriv=base | sec=5.5.4 | gloss=to do, to make
+perf: wadeko wadeka wadeki wada wadet | wadena wadekum wadekən wadaw wadaya
+impf: ʼəwadde təwadde təwaddi ləwadde təwadde | ʼənwadde təwaddu təwadya,təwayda ləwaddu ləwadya
+juss: ʼide tide tiday lide tide | nide tidaw tidaya lidaw lidaya
+imp: de,wəde day,wəday daw daya
+colloq.impf.3pm>3sm: waddəwo, waddwo   [prefixless imperfect]
+juss.3pm>3sm: lidawo
+perf.2sm>3sf: wadekha
+@ ṣawa | root=ṣ-w-y | type=A | deriv=base | sec=5.5.4 | gloss=to pervert
+perf.3sm: ṣawa
+impf.3sm: ləṣawe
+juss.3sm: ləṣwe
+@ maya | root=m-y-y | type=A | deriv=base | sec=5.5.4 | gloss=to let pass the night
+perf.3sm: maya
+impf.3sm: ləmaye
+juss.3sm: ləmye
+@ təwāla | root=w-l-y | type=C | deriv=tə | sec=5.5.4 | gloss=to be led (animal)
+perf.3sm: təwāla
+ij.3sm: lətwāle
+ij.3pm: lətwālaw
+@ təmaya | root=m-y-y | type=B | deriv=tə | sec=5.5.4 | gloss=to pass the night
+perf.3sm: təmaya
+ij.3sm: lətmaye
+ij.3pm: lətmayaw
+@ ʼadwa | root=d-w-y | type=A | deriv=ʼa | sec=5.5.4 | gloss=to make last
+perf.3sm: ʼadwa
+impf.3sm: ladawe
+juss.3sm: ladwe
+@ ʼattawda | root=w-d-y | type=A | deriv=ʼatta | sec=5.5.4 | gloss=to cause to be done
+perf.3sm: ʼattawda
+ij.3sm: lattawde
+
+# ---------------------------------------------------------------- § 5.6 semivowel + laryngal
+@ raʼa | root=r-ʼ-y | type=A | deriv=base | sec=5.6.1 | gloss=to see
+perf.3sm: raʼa
+perf.3pm: raʼaw
+perf.3sf: rəʼet
+perf.1pl: rəʼena
+impf.2sf: tərʼi
+impf.3sm: lərʼe
+impf.3pm: lərʼu
+juss.2sf: tərʼay
+juss.3sm: lərʼe
+juss.3pm: lərʼaw
+imp: rəʼe raʼay raʼaw raʼaya
+impf.3pm>3sm: lərʼəwo
+juss.3pm>3sm: lərʼawo
+@ tərāʼa | root=r-ʼ-y | type=B | deriv=tə | sec=5.6.1 | gloss=to be seen
+perf.3sm: tərāʼa
+ij.3sm: lətrəʼe
+@ ʼarʼa | root=r-ʼ-y | type=A | deriv=ʼa | sec=5.6.1 | gloss=to show
+perf.3sm: ʼarʼa
+ij.3sm: larʼe
+@ ḥaza | root=ḥ-z-y | type=A | deriv=base | sec=5.6.2 | gloss=to wish
+perf.3sm: ḥaza
+impf.3sm: laḥazze
+impf.1sg: ḥaze
+juss.3sm: ləḥəze
+juss.1sg: ḥize
+imp.2sm: ḥəze
+perf.1pl>3sf: ḥazenaha, ḥazenəha
+@ ʼāta | root=ʼ-t-y | type=C | deriv=base | sec=5.6.2 | gloss=to bring home
+perf.3sm: ʼāta
+@ ʼata | root=ʼ-t-y | type=A | deriv=base | sec=5.6.2 | gloss=to come home
+perf.3sm: ʼata
+@ ḥaya | root=ḥ-y-y | type=A | deriv=base | sec=5.6.3 | gloss=to heal (v.i.)
+perf.1sg: ḥayeko
+perf.2sf: ḥayeki
+perf.3pm: ḥayaw
+impf.1sg: ḥaye
+impf.2sf: taḥayi
+impf.3pm: laḥayu
+juss.1sg: ḥiye
+juss.2sf: təḥəyay
+juss.3pm: ləḥəyaw
+imp: ḥeye ḥəyay ḥəyaw ḥəyaya
+@ baʼa | root=b-y-ʼ | type=A | deriv=base | sec=5.6.4 | gloss=to enter
+perf.3sm: baʼa
+juss: ʼibyaʼ,ʼəbyaʼ,ʼibaʼ tibyaʼ,tibaʼ tibyaʼi,tibyiʼ,tibaʼi,tibiʼ libyaʼ,libaʼ tibyaʼ,tibaʼ | nibyaʼ,nibaʼ tibyaʼu,tibyuʼ,tibaʼu,tibuʼ tibyaʼa,tibaʼa libyaʼu,libyuʼ,libaʼu,libuʼ libyaʼa,libaʼa   [fix: 1sg ibaʼ, 2pf tabaʼa]
+imp: bəyaʼ,baʼ bəyʼi,bəyiʼ,bəʼi,biʼ bəyʼu,bəyuʼ,bəʼu,buʼ bəyʼa,bəʼa
+@ qaḥa | root=q-y-ḥ | type=A | deriv=base | sec=5.6.4 | gloss=to be red
+perf.3sm: qaḥa
+@ qaʼa | root=q-y-ʼ | type=A | deriv=base | sec=5.6.4 | gloss=to vomit
+perf.3sm: qaʼa
+@ qaʿa | root=q-y-ʿ | type=A | deriv=base | sec=5.6.4 | gloss=to vomit (variant of qaʼa)
+perf.3sm: qaʿa
+@ waʿala | root=w-ʿ-l | type=A | deriv=base | sec=5.6.5 | gloss=to pass the day
+perf.1sg: waʿalko
+perf.3sm: waʿala
+perf.3pm: waʿalaw
+impf.1sg: ʼəwʿəl
+impf.3sm: ləwʿəl
+impf.3pm: ləwʿəlo
+juss.1sg: ʼəwʿal
+juss.3sm: ləwʿal
+juss.3pm: ləwʿalo
+imp: waʿal waʿali waʿalo waʿala
+@ waḥada | root=w-ḥ-d | type=A | deriv=base | sec=5.6.5 | gloss=to be little
+perf.3sm: waḥada, ḥada
+juss.3sm: laḥad
+@ waḥaṭa | root=w-ḥ-ṭ | type=A | deriv=base | sec=5.6.5 | gloss=to devour
+perf.3sm: waḥaṭa, ḥaṭa
+juss.3sm: laḥaṭ
+@ ḥesa | root=ḥ-y-s | type=A | deriv=base | sec=5.6.6 | gloss=to be better
+perf.3sm: ḥesa
+impf.3sm: laḥayəs
+juss.3sm: ləḥis
+@ haba | root=h-y-b | type=A | deriv=base | sec=5.6.6 | gloss=to give
+perf: habko habka habki haba habat | habna habkum habkən habaw habaya
+impf: hayəb tahayəb tahaybi lahayəb tahayəb | nahayəb tahaybo tahayba lahaybo lahayba   [fix: 3sf tahayab]
+juss: hab tahab tahabi lahab tahab | nahab tahabo tahaba lahabo lahaba
+imp: hab habi habo haba
+perf.3sm>3sm: habayu
+perf.1pl>3sm: habnəhu, habnahu
+colloq.impf.3pm>3sm: hayubo   [prefixless imperfect]
+juss.3pm>3sm: ləhobo
+@ tahayaba | root=h-y-b | type=A | deriv=tə | sec=5.6.6 | gloss=to be given
+perf.3sm: tahayaba
+ij.3sm: ləthayab
+imp.2sm: tahayab
+@ ʼathayaba | root=h-y-b | type=A | deriv=ʼat | sec=5.6.6 | gloss=to cause to give
+perf.3sm: ʼathayaba
+ij.3sm: lathayəb
+imp.2sm: ʼathayəb
+
+# ---------------------------------------------------------------- § 5.7 irregular
+@ ʿala | root=w-ʿ-l | type=A | deriv=base | sec=5.7.1 | gloss=was (past of "to be"; perfect only; historically SV-L-C, § 5.6.5)
+perf: ʿalko ʿalka ʿalki ʿala ʿalat | ʿalna ʿalkum ʿalkən ʿalaw ʿalaya   [rule: stem ʿal + perfect suffixes]
+@ bela | root=b-h-l | type=A | deriv=base | class=irregular | sec=5.7.2 | gloss=to say
+perf: ʼəbe təbe,telka təbay,telki bela belat,təbe | ʼənbe təbaw,telkum telkən belaw belaya   [fix: plural rows misaligned in transcription; 2pf only telkən certain]
+impf: ʼəbəl təbəl təbli ləbəl təbəl | nəbəl təblo təbla ləblo ləbla
+juss: ʼibal tibal tibali libal tibal | nibal tibalo tibala libalo libala
+imp: bal bali balo bala
+perf.1sg>3sm: ʼəbello
+perf.2sm>3sm: təbello, tello
+perf.2sf>3sm: telkyo, telyo
+perf.3sm>3sm: bello, belayu
+perf.3sf>3sm: təbello
+perf.1pl>3sm: ʼənbello
+perf.2pm>3sm: telkumo, telwo
+perf.2pf>3sm: telknahu, telyahu
+perf.3pm>3sm: belawo
+perf.3pf>3sm: belayahu
+impf.1sg>3sm: ʼəbəllo
+impf.2sm>3sm: təbəllo
+impf.2sf>3sm: təbilo
+impf.3sm>3sm: ləbəllo
+impf.3sf>3sm: təbəllo
+impf.1pl>3sm: ʼənbəllo
+impf.2pm>3sm: təbulo
+impf.2pf>3sm: təblahu
+impf.3pm>3sm: ləbulo
+impf.3pf>3sm: ləblahu
+impf.3pf>3sf: ləbləha
+juss.1sg>3sm: ʼiballo
+juss.2sm>3sm: tiballo
+juss.2sf>3sm: tibelo
+juss.3sm>3sm: liballo
+juss.3sf>3sm: tiballo
+juss.1pl>3sm: niballo
+juss.2pm>3sm: tibolo
+juss.2pf>3sm: tibalahu
+juss.3pm>3sm: libolo
+juss.3pf>3sm: libalahu
+imp.2sm>3sm: ballo
+imp.2sf>3sm: belo
+imp.2pm>3sm: bolo
+imp.2pf>3sm: balahu
+perf.3pm>1sg: beluni
+perf.3pm>2sf: beluki
+@ təbahala | root=b-h-l | type=A | deriv=tə | sec=5.7.2 | gloss=to be said
+perf.3sm: təbahala
+ij.3sm: lətbahal
+@ ʼabala | root=b-h-l | type=A | deriv=ʼa | sec=5.7.2 | gloss=to make say
+perf.3sm: ʼabala
+ij.3sm: labəl
+@ ʼattabala | root=b-h-l | type=A | deriv=ʼatta | sec=5.7.2 | gloss=to make say
+perf.3sm: ʼattabala
+ij.3sm: lattabəl
+
+# ---------------------------------------------------------------- § 5.8 doubled (R2 = R3)
+@ ʿaqqa | root=ʿ-q-q | type=A | deriv=base | sec=5.8 | gloss=to cut, wound
+perf.3sm: ʿaqqa
+perf.3sf: ʿaqqat
+perf.3pm: ʿaqqaw
+@ danna | root=d-n-n | type=A | deriv=base | sec=5.8 | gloss=to descend
+perf.3sm: danna
+impf.2sf: tədanni
+impf.2pm: tədanno
+impf.3pf: lədanna
+@ ʼazzaza | root=ʼ-z-z | type=B | deriv=base | sec=5.8 | gloss=to command
+perf.3sm: ʼazzaza
+ij.1sg>2pm: ʼazzakkum
+ij.2pm>1sg: taʼazzuni
+ij.1sg>3sm: ʼazzəzzo
+ij.2pm>3sm: taʼazzuzo
+@ ʿadda | root=ʿ-d-d | type=A | deriv=base | sec=5.8 | gloss=to visit (sick people)
+perf.3sm: ʿadda
+juss.3pm>3sm: ləʿədodo
+perf.3pm>1pl: ʿaddawuna
+
+# ---------------------------------------------------------------- § 5.9 quadriradicals
+@ targama | root=t-r-g-m | type=A | deriv=base | sec=5.9 | gloss=to translate
+perf: targamko targamka targamki targama targamat | targamna targamkum targamkən targamaw targamaya
+ij: ʼətargəm tətargəm tətargəmi lətargəm tətargəm | ʼəntargəm tətargəmo tətargəma lətargəmo lətargəma   [fix: 2pf printed tətargama; 3pf has lətargəma]
+juss.1pl: nətargəm   [fix: printed nətangəm]
+imp: targəm targəmi targəmo targəma
+@ qarāṭaṭa | root=q-r-ṭ-ṭ | type=C | deriv=base | sec=5.9 | gloss=to shatter to pieces
+perf.3sm: qarāṭaṭa
+ij.3sm: ləqarāṭəṭ
+@ təqanṭaša | root=q-n-ṭ-š | type=A | deriv=tə | sec=5.9 | gloss=to be torn off
+perf.3sm: təqanṭaša
+ij.3sm: lətqanṭaš
+imp.2sm: təqanṭaš
+@ ʼatamtama | root=t-m-t-m | type=A | deriv=ʼa | sec=5.9 | gloss=to reach (v.t.)
+perf.3sm: ʼatamtama
+ij.3sm: latamtəm
+imp.2sm: ʼatamtəm   [fix: printed ʿatamtəm]
+@ ʼanqaṭqaṭa | root=q-ṭ-q-ṭ | type=A | deriv=ʼan | sec=5.9 | gloss=to quake (earth)
+perf.3sm: ʼanqaṭqaṭa
+ij.3sm: lanqaṭqəṭ
+imp.2sm: ʼanqaṭqəṭ   [fix: printed ʿanqaṭqəṭ]
+@ ʼastargama | root=t-r-g-m | type=A | deriv=ʼas | sec=5.9 | gloss=to interpret
+perf.3sm: ʼastargama
+ij.3sm: lastargəm
+imp.2sm: ʼastargəm
+@ təbarābara | root=b-r-b-r | type=C | deriv=tə | sec=5.9 | gloss=to scatter (v.i.)
+perf.3sm: təbarābara
+ij.3sm: lətbarābar
+imp.2sm: təbarābar
+@ ʼatmasāmasa | root=m-s-m-s | type=C | deriv=ʼat | sec=5.9 | gloss=to justify oneself
+perf.3sm: ʼatmasāmasa
+ij.3sm: latmasāməs
+imp.2sm: ʼatmasāməs
+@ ʼasnaqānaqa | root=n-q-n-q | type=C | deriv=ʼas | sec=5.9 | gloss=to shake oneself
+perf.3sm: ʼasnaqānaqa
+ij.3sm: lasnaqānəq
+imp.2sm: ʼasnaqānəq
+@ ʼattanqalqala | root=q-l-q-l | type=A | deriv=ʼattan | sec=5.9 | gloss=to move (v.t.)
+perf.3sm: ʼattanqalqala
+@ ʼattasqamqama | root=q-m-q-m | type=A | deriv=ʼattas | sec=5.9 | gloss=to make groan
+perf.3sm: ʼattasqamqama
+@ ṣanbala | root=ṣ-n-b-l | type=A | deriv=base | sec=5.12.3 | gloss=to give (a present)
+colloq.impf.3pm>3sm: ṣanbulo   [prefixless imperfect]
+
+@ ʼambata | root=ʼ-m-b-t | type=A | deriv=base | sec=5.9.1 | gloss=to begin
+perf.3sm: ʼambata, ʼanbata
+ij.3sm: laʼambət, laʼanbət
+@ taʿanqafa | root=ʿ-n-q-f | type=A | deriv=tə | sec=5.9.1 | gloss=to stumble
+perf.3sm: taʿanqafa
+ij.3sm: lətʿanqaf
+@ harābata | root=h-r-b-t | type=C | deriv=base | sec=5.9.1 | gloss=to throw oneself down
+perf.3sm: harābata
+ij.3sm: laharābət
+@ ḥasḥasa | root=ḥ-s-ḥ-s | type=A | deriv=base | sec=5.9.1 | gloss=to rub, scrub
+perf.3sm: ḥasḥasa
+ij.3sm: laḥasḥəs
+@ ʼamʿadaga | root=m-ʿ-d-g | type=A | deriv=ʼa | sec=5.9.1 | gloss=to be at one's prime
+perf.3sm: ʼamʿadaga
+ij.3sm: lamʿadəg
+@ č̣aʿarara | root=č̣-ʿ-r-r | type=A | deriv=base | sec=5.9.1 | gloss=to become dry
+perf.3sm: č̣aʿarara
+ij.3sm: lač̣aʿarər
+@ təmahalala | root=m-h-l-l | type=A | deriv=tə | sec=5.9.1 | gloss=to appeal to God
+perf.3sm: təmahalala
+ij.3sm: lətmahalal
+@ qarqəḥa | root=q-r-q-ḥ | type=A | deriv=base | sec=5.9.1 | gloss=to knock
+perf.3sm: qarqəḥa
+ij.3sm: ləqarqəḥ
+@ qarāqəḥa | root=q-r-q-ḥ | type=C | deriv=base | sec=5.9.1 | gloss=to knock
+perf.3sm: qarāqəḥa
+ij.3sm: ləqarāqəḥ
+
+@ watwata | root=w-t-w-t | type=A | deriv=base | sec=5.9.2 | gloss=to shake (v.t.)
+perf.3sm: watwata
+ij.3sm: ləwatwət
+@ fanta | root=f-n-t-y | type=A | deriv=base | sec=5.9.2 | gloss=to separate
+perf.3sm: fanta
+ij.3sm: ləfante
+@ fanāta | root=f-n-t-y | type=C | deriv=base | sec=5.9.2 | gloss=to tear to pieces
+perf.3sm: fanāta
+ij.3sm: ləfanāte
+@ nawna | root=n-w-n-y | type=A | deriv=base | sec=5.9.2 | gloss=to move (v.t.)
+perf.3sm: nawna
+ij.3sm: lənawne
+@ gola | root=g-w-l-y | type=A | deriv=base | sec=5.9.2 | gloss=to dance (w → o)
+perf.3sm: gola
+colloq.impf.3pm: golu   [prefixless imperfect; Raz § 5.9.2 fn 1]
+colloq.impf.3pf: goyla   [prefixless imperfect with y-metathesis]
+ij.3sm: ləgole
+@ qoda | root=q-w-d-y | type=A | deriv=base | sec=5.9.2 | gloss=to dig
+perf.3sm: qoda
+ij.3sm: ləqode
+@ ʼaqoda | root=q-w-d-y | type=A | deriv=ʼa | sec=5.9.2 | gloss=to make dig
+perf.3sm: ʼaqoda
+ij.3sm: laqode
+@ dawrara | root=d-w-r-r | type=A | deriv=base | sec=5.9.2 | gloss=to turn (v.i.)
+perf.3sm: dawrara
+ij.3sm: lədawrər
+@ gorata | root=g-w-r-t | type=A | deriv=base | sec=5.9.2 | gloss=to load
+perf.3sm: gorata
+ij.3sm: ləgorət
+@ qoč̣aba | root=q-w-č̣-b | type=A | deriv=base | sec=5.9.2 | gloss=to tear off
+perf.3sm: qoč̣aba
+ij.3sm: ləqoč̣əb
+@ ʼattaqoč̣aba | root=q-w-č̣-b | type=A | deriv=ʼatta | sec=5.9.2 | gloss=to make tear off
+perf.3sm: ʼattaqoč̣aba
+ij.3sm: lattaqoč̣əb
+@ ʼanṭoṭala | root=ṭ-w-ṭ-l | type=A | deriv=ʼan | sec=5.9.2 | gloss=to swing
+perf.3sm: ʼanṭoṭala
+ij.3sm: lanṭoṭəl
+@ ʼanṭawāṭala | root=ṭ-w-ṭ-l | type=C | deriv=ʼan | sec=5.9.2 | gloss=to swing
+perf.3sm: ʼanṭawāṭala
+ij.3sm: lanṭawāṭəl
+@ gega | root=g-y-g-y | type=A | deriv=base | sec=5.9.2 | gloss=to make a mistake (y → e)
+perf.3sm: gega
+ij.3sm: ləgege
+@ ʼalela | root=l-y-l-y | type=A | deriv=ʼa | sec=5.9.2 | gloss=to distinguish
+perf.3sm: ʼalela
+ij.3sm: lalele
+@ təlela | root=l-y-l-y | type=A | deriv=tə | sec=5.9.2 | gloss=to be distinguished
+perf.3sm: təlela
+ij.3sm: lətlele
+@ deraba | root=d-y-r-b | type=A | deriv=base | sec=5.9.2 | gloss=to tie together
+perf.3sm: deraba
+ij.3sm: lədereb
+@ ʼaserara | root=s-y-r-r | type=A | deriv=ʼa | sec=5.9.2 | gloss=to stand in line
+perf.3sm: ʼaserara
+ij.3sm: laserer
+@ təkelaba | root=k-y-l-b | type=A | deriv=tə | sec=5.9.2 | gloss=to be surrounded
+perf.3sm: təkelaba
+ij.3sm: lətkelab
+@ hayārara | root=h-y-r-r | type=C | deriv=base | sec=5.9.2 | gloss=to chase away
+perf.3sm: hayārara
+ij.3sm: lahayārər
+
+# ---------------------------------------------------------------- § 5.10 five radicals
+@ halaflafa | root=h-l-f-l-f | type=A | deriv=base | sec=5.10 | gloss=to chatter
+perf.3sm: halaflafa
+@ haṭalṭala | root=h-ṭ-l-ṭ-l | type=A | deriv=base | sec=5.10 | gloss=to tremble
+perf.3sm: haṭalṭala
+@ ʼaglablaba | root=g-l-b-l-b | type=A | deriv=ʼa | sec=5.10 | gloss=to be startled
+perf.3sm: ʼaglablaba
+@ balač̣lač̣a | root=b-l-č̣-l-č̣ | type=A | deriv=base | sec=5.10 | gloss=to glitter
+perf.3sm: balač̣lač̣a
+ij.3sm: ləbalač̣ləč̣
+@ ḥašakšaka | root=ḥ-š-k-š-k | type=A | deriv=base | sec=5.10 | gloss=to whisper
+perf.3sm: ḥašakšaka
+ij.3sm: laḥašakšək
+@ halaqālaqa | root=h-l-q-l-q | type=C | deriv=base | sec=5.10 | gloss=to stagger violently
+perf.3sm: halaqālaqa
+@ halaqlaqa | root=h-l-q-l-q | type=A | deriv=base | sec=5.10 | gloss=to be tired
+perf.3sm: halaqlaqa
+@ ʼathalaqlaqa | root=h-l-q-l-q | type=A | deriv=ʼat | sec=5.10 | gloss=to tire
+perf.3sm: ʼathalaqlaqa
+@ hawašwaša | root=h-w-š-w-š | type=A | deriv=base | sec=5.10.1 | gloss=to disappear
+perf.3sm: hawašwaša
+ij.3sm: lahawašwəš
+@ ʿawadwada | root=ʿ-w-d-w-d | type=A | deriv=base | sec=5.10.1 | gloss=to grow dark
+perf.3sm: ʿawadwada
+ij.3sm: laʿawadwəd
+@ ḥanobaza | root=ḥ-n-w-b-z | type=A | deriv=base | sec=5.10.1 | gloss=to murmur (o after R2)
+perf.3sm: ḥanobaza
+ij.3sm: laḥanobəz
+@ ʼašʼobaba | root=š-ʼ-w-b-b | type=A | deriv=ʼa | sec=5.10.1 | gloss=to look downward
+perf.3sm: ʼašʼobaba
+ij.3sm: lašʼobəb
+@ ʼagdoda | root=g-d-w-d-y | type=A | deriv=ʼa | sec=5.10.1 | gloss=to hobble
+perf: ʼagdodeko ʼagdodeka ʼagdodeki ʼagdoda ʼagdodat | ʼagdodena ʼagdodekum ʼagdodekən ʼagdodaw ʼagdodaya
+ij: ʼagdode tagdode tagdodi lagdode tagdode | nagdode tagdodu tagdodya lagdodu lagdodya
+
+# ---------------------------------------------------------------- § 5.12 pronominal (object) suffixes — model verb qatla
+@ qatla | root=q-t-l | type=A | deriv=base | sec=5.12.1 | gloss=to kill
+perf: qatalko qatalka qatalki qatla qatlat | qatalna qatalkum qatalkən qatlaw qatlaya   [rule: § 5.3.1 suffixes]
+# object 1sg -ni/-nni
+perf.2sm>1sg: qatalkanni
+perf.2sf>1sg: qatalkini
+perf.3sm>1sg: qatlenni
+perf.3sf>1sg: qatlattanni
+perf.2pm>1sg: qatalkuni
+perf.2pf>1sg: qatalkənani, qatalknani
+perf.3pm>1sg: qatlawni
+perf.3pf>1sg: qatlayani
+impf.2sm>1sg: təqatlanni
+impf.2sf>1sg: təqatlini
+impf.3sm>1sg: ləqatlanni
+impf.3sf>1sg: təqatlanni
+impf.2pm>1sg: təqatluni
+impf.2pf>1sg: təqatlani
+impf.3pm>1sg: ləqatluni
+impf.3pf>1sg: ləqatlani
+juss.2sm>1sg: təqtalanni
+juss.2sf>1sg: təqtalini
+juss.3sm>1sg: ləqtalanni
+juss.3sf>1sg: təqtalanni
+juss.2pm>1sg: təqtaluni
+juss.2pf>1sg: təqtalani
+juss.3pm>1sg: ləqtaluni
+juss.3pf>1sg: ləqtalani
+imp.2sm>1sg: qətalanni
+imp.2sf>1sg: qətalini
+imp.2pm>1sg: qətaluni
+imp.2pf>1sg: qətalani
+# object 1pl -na/-nna: "as first person singular"
+perf.2sm>1pl: qatalkanna   [rule]
+perf.3sm>1pl: qatlenna   [rule]
+impf.3sm>1pl: ləqatlanna   [rule]
+juss.3sm>1pl: ləqtalanna   [rule]
+imp.2sm>1pl: qətalanna   [rule]
+# object 2sm -ka/-kka
+perf.1sg>2sm: qatalkoka
+perf.3sm>2sm: qatlekka
+perf.3sf>2sm: qatlattakka
+perf.1pl>2sm: qatalnaka
+perf.3pm>2sm: qatlawka
+perf.3pf>2sm: qatlayaka
+impf.1sg>2sm: ʼəqatlakka
+impf.3sm>2sm: ləqatlakka
+impf.3sf>2sm: təqatlakka
+impf.1pl>2sm: ʼənqatlakka
+impf.3pm>2sm: ləqatluka
+impf.3pf>2sm: ləqatlaka
+juss.3sm>2sm: ləqtalakka   [rule]
+juss.3pm>2sm: ləqtaluka   [rule]
+# objects 2sf/2pm/2pf: "as 2nd masc. sing."
+perf.3sm>2sf: qatlekki   [rule]
+perf.3sm>2pm: qatlekkum   [rule]
+perf.3sm>2pf: qatlekkən   [rule]
+impf.3sm>2pm: ləqatlakkum   [rule]
+# object 3sm -o/-wo/-yo/-hu/-yu
+perf.1sg>3sm: qatalkwo
+perf.2sm>3sm: qatalkahu
+perf.2sf>3sm: qatalkəyo, qatalkyo
+perf.3sm>3sm: qatlayu
+perf.3sf>3sm: qatlatto
+perf.1pl>3sm: qatalnahu
+perf.2pm>3sm: qatalkumo
+perf.2pf>3sm: qatalkənahu, qatalknahu
+perf.3pm>3sm: qatlawo
+perf.3pf>3sm: qatlayahu
+impf.1sg>3sm: ʼəqattəllo
+impf.2sm>3sm: təqattəllo
+impf.2sf>3sm: təqattilo
+impf.3sm>3sm: ləqattəllo
+impf.3sf>3sm: təqattəllo
+impf.1pl>3sm: ʼənqattəllo
+impf.2pm>3sm: təqattulo
+impf.2pf>3sm: təqatlahu   [fix: printed ləqatlahu]
+impf.3pm>3sm: ləqattulo
+impf.3pf>3sm: ləqatlahu
+juss.1sg>3sm: ʼəqtallo   [fix: printed ʿəqtallo]
+juss.2sm>3sm: təqtallo
+juss.2sf>3sm: təqtelo
+juss.3sm>3sm: ləqtallo
+juss.3sf>3sm: təqtallo
+juss.1pl>3sm: nəqtallo
+juss.2pm>3sm: təqtolo
+juss.2pf>3sm: təqtalahu
+juss.3pm>3sm: ləqtolo
+juss.3pf>3sm: ləqtalahu
+imp.2sm>3sm: qətallo
+imp.2sf>3sm: qətelo
+imp.2pm>3sm: qətolo
+imp.2pf>3sm: qətalahu
+# objects 3sf/3pm/3pf: "as 3rd masc. sing." (-a/-wa/-ya/-ha, -om/…/-hom, -an/…/-han)
+perf.3sm>3sf: qatlaya   [rule]
+perf.3sm>3pm: qatlayom   [rule]
+perf.3sm>3pf: qatlayan   [rule]
+perf.1sg>3sf: qatalkwa   [rule]
+perf.2sm>3sf: qatalkaha   [rule]
+perf.3sf>3pm: qatlattom   [rule]
+impf.3sm>3sf: ləqattəlla   [rule]
+impf.3sm>3pm: ləqattəllom   [rule]
+impf.3pm>3sf: ləqattula   [rule]
+juss.3sm>3sf: ləqtalla   [rule]
+imp.2sm>3sf: qətalla   [rule]
+imp.2pm>3pm: qətolom   [rule]
+# variants § 5.12.7: 3pm + 1st/2nd person object
+perf.3pm>1sg: qatlawuni   [rule]
+
+@ dabʼa | root=d-b-ʼ | type=A | deriv=base | sec=5.12 | gloss=to close
+perf.3sm>3sm: dabʼayu
+@ təkabbata | root=k-b-t | type=B | deriv=tə | sec=5.12.2 | gloss=to meet, receive
+perf.3sf>3pm: təkabbatattom
+perf.3pm>3sf: təkabbatawa, tkabbatawa
+ij.3pf>3pm: lətkabbatahom
+imp.2pm>3sm: təkabboto
+imp.2pm>3sf: təkabbota
+@ ʼawdaqa | root=w-d-q | type=A | deriv=ʼa | sec=5.12.2 | gloss=to overpower
+perf.3sm>1sg: ʼawdaqenni   [fix: printed ʼawdakenni]
+@ ʼafgara | root=f-g-r | type=A | deriv=ʼa | sec=5.12.2 | gloss=to let go out, pour
+impf.3sf>3sf: tafaggərra
+juss.3sm>1sg: lafgəranne   [-ne variant, § 5.12.7]
+@ ʼaqbala | root=q-b-l | type=A | deriv=ʼa | sec=5.12.2 | gloss=to come back
+impf.3pm>3sm: laqabbulo
+@ ʼaqmata | root=q-m-t | type=A | deriv=ʼa | sec=5.12.2 | gloss=to observe
+juss.2pm>3pm: taqmutom
+@ waṭṭana | root=w-ṭ-n | type=B | deriv=base | sec=5.12.2 | gloss=to test
+ij.1sg>3sm: ʼəwaṭṭənno   [fix: printed ʿəwaṭṭənno]
+@ dakkala | root=d-k-l | type=B | deriv=base | sec=5.12.2 | gloss=to entreat
+ij.3pm>3sm: lədakkulo   [fix: printed lədaqqulo]
+@ ʼaǧarraba | root=ǧ-r-b | type=B | deriv=ʼa | sec=5.12.2 | gloss=to importune, distress
+ij.3pm>3pm: laǧarrubom
+@ kālasa | root=k-l-s | type=C | deriv=base | sec=5.12.2 | gloss=to terminate
+ij.3sf>2sf: təkālsakki, təkāləsakki
+@ fāraga | root=f-r-g | type=C | deriv=base | sec=5.12.2 | gloss=to interpret
+colloq.impf.3pm>3sm: fārugo   [prefixless imperfect]
+@ təbāṭara | root=b-ṭ-r | type=C | deriv=tə | sec=5.12.2 | gloss=to resist
+ij.3pm>3sm: lətbāṭoro
+@ saḥaba | root=s-ḥ-b | type=A | deriv=base | sec=5.12.4 | gloss=to drag
+impf.3sm>3sm: ləsḥəbbo
+impf.3pm>3sm: ləsḥubo
+@ kahala | root=k-h-l | type=A | deriv=base | sec=5.12.4 | gloss=to endure
+juss.2pm>3sf: təkhola
+@ raḥama | root=r-ḥ-m | type=A | deriv=base | sec=5.12.4 | gloss=to have pity on
+imp.2pm>3pm: rəḥomom
+@ təkaḥada | root=k-ḥ-d | type=A | deriv=tə | sec=5.12.4 | gloss=to oppose
+ij.3pm>3sm: lətkəḥodo
+@ təsaʼala.2 | root=s-ʼ-l | type=A | deriv=tə | sec=5.12.4 | gloss=to ask (printed təsaʿala)
+ij.3pm>3pm: ləssəʼolom
+@ ʼamhara | root=m-h-r | type=A | deriv=ʼa | sec=5.12.4 | gloss=to teach
+ij.3pm>3pm: lamhurom
+@ ʼassaʼala | root=s-ʼ-l | type=A | deriv=ʼat | sec=5.12.4 | gloss=to tell, inform (t assimilated)
+perf.3sm: ʼassaʼala
+ij.3pm>3sm: lassəʼulo
+@ rakba | root=r-k-b | type=A | deriv=base | sec=5.12.7 | gloss=to find
+perf.2sm>3sm: rakabkahu, rakabkəhu
+@ ʼāmara | root=ʼ-m-r | type=C | deriv=base | sec=5.12.7 | gloss=to know
+perf.2sm>3sm: ʼāmarkəhu, ʼāmarkahu
+@ ḥalfa | root=ḥ-l-f | type=A | deriv=base | sec=5.12.7 | gloss=to pass
+perf.3pm>2sm: ḥalfawuka
+@ šāwaṭa | root=š-w-ṭ | type=C | deriv=base | sec=5.12.7 | gloss=to flog
+perf.3pm>2sf: šāwaṭawuki
+@ kalʼa | root=k-l-ʼ | type=A | deriv=base | sec=5.12.7 | gloss=to prevent
+perf.3pm>1pl: kalʼawuna
+@ ʿaggaba | root=ʿ-g-b | type=B | deriv=base | sec=5.12.7 | gloss=to wrong
+perf.3pm>1pl: ʿaggabayuna
+@ ʼathada | root=h-d-y | type=A | deriv=ʼat | sec=5.12.7 | gloss=to give in marriage
+perf.3pm>1pl: ʼathadayuna
+@ hawaka | root=h-w-k | type=B | deriv=base | sec=5.12.7 | gloss=to confound
+perf.3pm>2pm: hawakayukum
+
+# ---------------------------------------------------------------- citation forms (§ 5.2, 5.2.1): perfect 3m.sg with Raz's type labels
+@ lakfa | root=l-k-f | type=A | deriv=base | sec=5.2 | gloss=to throw
+perf.3sm: lakfa
+@ sakba | root=s-k-b | type=A | deriv=base | sec=5.2 | gloss=to take rest
+perf.3sm: sakba
+@ waḥaza | root=w-ḥ-z | type=A | deriv=base | sec=5.2 | gloss=to flow
+perf.3sm: waḥaza
+@ gabʼa | root=g-b-ʼ | type=A | deriv=base | sec=5.2 | gloss=to become
+perf.3sm: gabʼa
+@ dangara | root=d-n-g-r | type=A | deriv=base | sec=5.2 | gloss=to be late
+perf.3sm: dangara
+@ garrama | root=g-r-m | type=B | deriv=base | sec=5.2 | gloss=to be beautiful
+perf.3sm: garrama
+@ wallaba | root=w-l-b | type=B | deriv=base | sec=5.2 | gloss=to turn at
+perf.3sm: wallaba
+@ sallasa | root=s-l-s | type=B | deriv=base | sec=5.2 | gloss=to do three times
+perf.3sm: sallasa
+@ tallama | root=t-l-m | type=B | deriv=base | sec=5.2 | gloss=to begin to plough
+perf.3sm: tallama
+@ baššara | root=b-š-r | type=B | deriv=base | sec=5.2 | gloss=to bring good news
+perf.3sm: baššara
+@ ṭallaqa | root=ṭ-l-q | type=B | deriv=base | sec=5.2 | gloss=to let loose
+perf.3sm: ṭallaqa
+@ saddaqa | root=s-d-q | type=B | deriv=base | sec=5.2 | gloss=to sacrifice
+perf.3sm: saddaqa
+@ ʿaddaba | root=ʿ-d-b | type=B | deriv=base | sec=5.2 | gloss=to trouble
+perf.3sm: ʿaddaba
+@ ḥabbasa | root=ḥ-b-s | type=B | deriv=base | sec=5.2 | gloss=to take prisoner
+perf.3sm: ḥabbasa
+@ ḥaddasa | root=ḥ-d-s | type=B | deriv=base | sec=5.2 | gloss=to renew
+perf.3sm: ḥaddasa
+@ ʼaddaba | root=ʼ-d-b | type=B | deriv=base | sec=5.2 | gloss=to accustom
+perf.3sm: ʼaddaba
+@ kayana | root=k-y-n | type=B | deriv=base | sec=5.2 | gloss=to deceive
+perf.3sm: kayana
+@ kawala | root=k-w-l | type=B | deriv=base | sec=5.2 | gloss=to hide
+perf.3sm: kawala
+@ halla | root=h-l-l | type=B | deriv=base | sec=5.2 | gloss=to be, to exist
+perf.3sm: halla
+@ daggama | root=d-g-m | type=B | deriv=base | sec=5.2 | gloss=to tell
+perf.3sm: daggama
+@ dagma | root=d-g-m | type=A | deriv=base | sec=5.2 | gloss=to repeat
+perf.3sm: dagma
+@ šakkara | root=š-k-r | type=B | deriv=base | sec=5.2 | gloss=to praise
+perf.3sm: šakkara
+@ šakra | root=š-k-r | type=A | deriv=base | sec=5.2 | gloss=to get drunk
+perf.3sm: šakra
+@ ballasa | root=b-l-s | type=B | deriv=base | sec=5.2 | gloss=(B of balsa)
+perf.3sm: ballasa
+@ faṭṭara | root=f-ṭ-r | type=B | deriv=base | sec=5.2 | gloss=(B of faṭra)
+perf.3sm: faṭṭara
+@ balsa | root=b-l-s | type=A | deriv=base | sec=5.2 | gloss=(A of ballasa)
+perf.3sm: balsa
+@ faṭra | root=f-ṭ-r | type=A | deriv=base | sec=5.2 | gloss=(A of faṭṭara)
+perf.3sm: faṭra
+@ qarraṣa | root=q-r-ṣ | type=B | deriv=base | sec=5.2 | gloss=(B of qarṣa)
+perf.3sm: qarraṣa
+@ qarṣa | root=q-r-ṣ | type=A | deriv=base | sec=5.2 | gloss=(A of qarraṣa)
+perf.3sm: qarṣa
+@ masla | root=m-s-l | type=A | deriv=base | sec=5.2 | gloss=(A of massala)
+perf.3sm: masla
+@ massala | root=m-s-l | type=B | deriv=base | sec=5.2 | gloss=(B of masla)
+perf.3sm: massala
+@ ḥabbara | root=ḥ-b-r | type=B | deriv=base | sec=5.2 | gloss=(B of ḥabra)
+perf.3sm: ḥabbara
+@ ḥabra | root=ḥ-b-r | type=A | deriv=base | sec=5.2 | gloss=(A of ḥabbara)
+perf.3sm: ḥabra
+@ harrama | root=h-r-m | type=B | deriv=base | sec=5.2 | gloss=(B of harma)
+perf.3sm: harrama
+@ ḥaffana | root=ḥ-f-n | type=B | deriv=base | sec=5.2 | gloss=(B of ḥafna)
+perf.3sm: ḥaffana
+@ ḥafna | root=ḥ-f-n | type=A | deriv=base | sec=5.2 | gloss=(A of ḥaffana)
+perf.3sm: ḥafna
+@ kabbara | root=k-b-r | type=B | deriv=base | sec=5.2 | gloss=(B of kabra)
+perf.3sm: kabbara
+@ kabra | root=k-b-r | type=A | deriv=base | sec=5.2 | gloss=(A of kabbara)
+perf.3sm: kabra
+@ gāraba | root=g-r-b | type=C | deriv=base | sec=5.2 | gloss=(C of garba)
+perf.3sm: gāraba
+@ garba | root=g-r-b | type=A | deriv=base | sec=5.2 | gloss=(A of gāraba)
+perf.3sm: garba
+@ sāṭara | root=s-ṭ-r | type=C | deriv=base | sec=5.2 | gloss=(C of saṭra)
+perf.3sm: sāṭara
+@ saṭra | root=s-ṭ-r | type=A | deriv=base | sec=5.2 | gloss=(A of sāṭara)
+perf.3sm: saṭra
+@ sāqala | root=s-q-l | type=C | deriv=base | sec=5.2 | gloss=(C of saqla)
+perf.3sm: sāqala
+@ saqla | root=s-q-l | type=A | deriv=base | sec=5.2 | gloss=(A of sāqala)
+perf.3sm: saqla
+@ sābara | root=s-b-r | type=C | deriv=base | sec=5.2 | gloss=(C of sabra)
+perf.3sm: sābara
+@ sabra | root=s-b-r | type=A | deriv=base | sec=5.2 | gloss=(A of sābara)
+perf.3sm: sabra
+@ lākafa | root=l-k-f | type=C | deriv=base | sec=5.2 | gloss=(C of lakfa)
+perf.3sm: lākafa
+@ qātala | root=q-t-l | type=C | deriv=base | sec=5.2 | gloss=to fight one another
+perf.3sm: qātala
+@ wālada | root=w-l-d | type=C | deriv=base | sec=5.2 | gloss=(C of walda)
+perf.3sm: wālada
+@ ṣābaṭa | root=ṣ-b-ṭ | type=C | deriv=base | sec=5.2 | gloss=(C of ṣabṭa)
+perf.3sm: ṣābaṭa
+@ ṣabṭa | root=ṣ-b-ṭ | type=A | deriv=base | sec=5.2 | gloss=(A of ṣābaṭa)
+perf.3sm: ṣabṭa
+@ ḥālafa | root=ḥ-l-f | type=C | deriv=base | sec=5.2 | gloss=(C of ḥalfa)
+perf.3sm: ḥālafa
+@ ḥārada | root=ḥ-r-d | type=C | deriv=base | sec=5.2 | gloss=(C of ḥarda)
+perf.3sm: ḥārada
+@ tākala | root=t-k-l | type=C | deriv=base | sec=5.2 | gloss=(C of takla)
+perf.3sm: tākala
+@ takla | root=t-k-l | type=A | deriv=base | sec=5.2 | gloss=(A of tākala)
+perf.3sm: takla
+@ sāfaṭa | root=s-f-ṭ | type=C | deriv=base | sec=5.2 | gloss=(C of safṭa)
+perf.3sm: sāfaṭa
+@ safṭa | root=s-f-ṭ | type=A | deriv=base | sec=5.2 | gloss=(A of sāfaṭa)
+perf.3sm: safṭa
+@ bātaka | root=b-t-k | type=C | deriv=base | sec=5.2 | gloss=(C of batka)
+perf.3sm: bātaka
+@ batka | root=b-t-k | type=A | deriv=base | sec=5.2 | gloss=to cut
+perf.3sm: batka
+@ lābaka | root=l-b-k | type=C | deriv=base | sec=5.2 | gloss=(C of labbaka)
+perf.3sm: lābaka
+@ labbaka | root=l-b-k | type=B | deriv=base | sec=5.2 | gloss=(B of lābaka)
+perf.3sm: labbaka
+@ kallasa | root=k-l-s | type=B | deriv=base | sec=5.2 | gloss=(B; = kālasa)
+perf.3sm: kallasa
+@ tālama | root=t-l-m | type=C | deriv=base | sec=5.2 | gloss=(C of tallama)
+perf.3sm: tālama
+@ sāraḥa | root=s-r-ḥ | type=C | deriv=base | sec=5.2 | gloss=(C, III-laryngal)
+perf.3sm: sāraḥa, sārḥa
+@ bāraka | root=b-r-k | type=C | deriv=base | sec=5.2 | gloss=(C of barka)
+perf.3sm: bāraka
+@ barka | root=b-r-k | type=A | deriv=base | sec=5.2 | gloss=(A of bāraka)
+perf.3sm: barka
+@ šākara | root=š-k-r | type=C | deriv=base | sec=5.2 | gloss=(C; = šakkara)
+perf.3sm: šākara
+@ qarṭaṭa | root=q-r-ṭ-ṭ | type=A | deriv=base | sec=5.2 | gloss=to break into several pieces
+perf.3sm: qarṭaṭa
+@ marāmara | root=m-r-m-r | type=C | deriv=base | sec=5.2 | gloss=(C of marmara)
+perf.3sm: marāmara
+@ marmara | root=m-r-m-r | type=A | deriv=base | sec=5.2 | gloss=(A of marāmara)
+perf.3sm: marmara
+@ gasāgasa | root=g-s-g-s | type=C | deriv=base | sec=5.2 | gloss=(C of gasgasa)
+perf.3sm: gasāgasa
+@ gasgasa | root=g-s-g-s | type=A | deriv=base | sec=5.2 | gloss=(A of gasāgasa)
+perf.3sm: gasgasa
+@ sabābara | root=s-b-r | type=D | deriv=base | sec=5.2 | gloss=(D of sabra)
+perf.3sm: sabābara
+@ ḥarārasa | root=ḥ-r-s | type=D | deriv=base | sec=5.2 | gloss=(D of ḥarsa)
+perf.3sm: ḥarārasa
+@ ḥarṣa | root=ḥ-r-ṣ | type=A | deriv=base | sec=5.2 | gloss=(A)
+perf.3sm: ḥarṣa
+@ katātaba | root=k-t-b | type=D | deriv=base | sec=5.2 | gloss=(D of katba)
+perf.3sm: katātaba
+@ katba | root=k-t-b | type=A | deriv=base | sec=5.2 | gloss=to write
+perf.3sm: katba
+@ dagāgama | root=d-g-m | type=D | deriv=base | sec=5.2 | gloss=(D of dagma)
+perf.3sm: dagāgama
+@ dāgama | root=d-g-m | type=C | deriv=base | sec=5.2 | gloss=(C of dagma)
+perf.3sm: dāgama
+@ bālasa | root=b-l-s | type=C | deriv=base | sec=5.2 | gloss=(C of balsa)
+perf.3sm: bālasa
+@ badādala | root=b-d-l | type=D | deriv=base | sec=5.2 | gloss=(D of badla)
+perf.3sm: badādala
+@ badla | root=b-d-l | type=A | deriv=base | sec=5.2 | gloss=(A of badādala)
+perf.3sm: badla
+@ kadādama | root=k-d-m | type=D | deriv=base | sec=5.2 | gloss=(D of kadma)
+perf.3sm: kadādama
+@ kadma | root=k-d-m | type=A | deriv=base | sec=5.2 | gloss=(A of kadādama)
+perf.3sm: kadma
+@ kalāləʼa | root=k-l-ʼ | type=D | deriv=base | sec=5.2 | gloss=(D of kalʼa)
+perf.3sm: kalāləʼa
+@ dawāwara | root=d-w-r | type=D | deriv=base | sec=5.2 | gloss=(D of dora)
+perf.3sm: dawāwara
+@ tənaqqama | root=n-q-m | type=B | deriv=tə | sec=5.2.1 | gloss=(tə-B)
+perf.3sm: tənaqqama
+@ naqma | root=n-q-m | type=A | deriv=base | sec=5.2.1 | gloss=(A)
+perf.3sm: naqma
+@ təraqqaba | root=r-q-b | type=B | deriv=tə | sec=5.2.1 | gloss=(tə-B)
+perf.3sm: təraqqaba
+@ raqba | root=r-q-b | type=A | deriv=base | sec=5.2.1 | gloss=(A)
+perf.3sm: raqba
+@ taḥassaba | root=ḥ-s-b | type=B | deriv=tə | sec=5.2.1 | gloss=(tə-B)
+perf.3sm: taḥassaba
+@ təqantaba | root=q-n-t-b | type=A | deriv=tə | sec=5.2.1 | gloss=(tə-A, quadriradical)
+perf.3sm: təqantaba
+@ kantaba | root=k-n-t-b | type=A | deriv=base | sec=5.2.1 | gloss=(A, quadriradical)
+perf.3sm: kantaba
+@ təsaqqala | root=s-q-l | type=B | deriv=tə | sec=5.2.1 | gloss=(tə-B)
+perf.3sm: təsaqqala
+@ təkassata | root=k-s-t | type=A | deriv=tə | sec=5.2.1 | gloss=to be opened (tə-A; beside kasta)
+perf.3sm: təkassata
+@ kasta | root=k-s-t | type=A | deriv=base | sec=5.2.1 | gloss=to open
+perf.3sm: kasta
+@ taʿaǧǧaba | root=ʿ-ǧ-b | type=B | deriv=tə | sec=5.2.1 | gloss=(tə-B)
+perf.3sm: taʿaǧǧaba
+@ ʿaǧba | root=ʿ-ǧ-b | type=A | deriv=base | sec=5.2.1 | gloss=(A)
+perf.3sm: ʿaǧba
+@ tədardara | root=d-r-d-r | type=A | deriv=tə | sec=5.2.1 | gloss=(tə-A, quadriradical)
+perf.3sm: tədardara
+@ dardara | root=d-r-d-r | type=A | deriv=base | sec=5.2.1 | gloss=(A, quadriradical)
+perf.3sm: dardara
+@ təkallasa | root=k-l-s | type=B | deriv=tə | sec=5.2.1 | gloss=(tə-B)
+perf.3sm: təkallasa
+@ təmazzana | root=m-z-n | type=B | deriv=tə | sec=5.2.1 | gloss=(tə-B)
+perf.3sm: təmazzana
+@ taḥaddasa | root=ḥ-d-s | type=B | deriv=tə | sec=5.2.1 | gloss=(tə-B)
+perf.3sm: taḥaddasa
+@ təsāṭara | root=s-ṭ-r | type=C | deriv=tə | sec=5.2.1 | gloss=(tə-C)
+perf.3sm: təsāṭara
+@ təšārama | root=š-r-m | type=C | deriv=tə | sec=5.2.1 | gloss=(tə-C)
+perf.3sm: təšārama
+@ šārama | root=š-r-m | type=C | deriv=base | sec=5.2.1 | gloss=(C)
+perf.3sm: šārama
+@ taḥārada | root=ḥ-r-d | type=C | deriv=tə | sec=5.2.1 | gloss=(tə-C)
+perf.3sm: taḥārada
+@ təlāmada | root=l-m-d | type=C | deriv=tə | sec=5.2.1 | gloss=(tə-C)
+perf.3sm: təlāmada
+@ lamda | root=l-m-d | type=A | deriv=base | sec=5.2.1 | gloss=(A)
+perf.3sm: lamda
+@ təqāraba | root=q-r-b | type=C | deriv=tə | sec=5.2.1 | gloss=(tə-C)
+perf.3sm: təqāraba
+@ qarba | root=q-r-b | type=A | deriv=base | sec=5.2.1 | gloss=(A)
+perf.3sm: qarba
+@ təgādaba | root=g-d-b | type=C | deriv=tə | sec=5.2.1 | gloss=(tə-C)
+perf.3sm: təgādaba
+@ gadba | root=g-d-b | type=A | deriv=base | sec=5.2.1 | gloss=(A)
+perf.3sm: gadba
+@ taḥādara | root=ḥ-d-r | type=C | deriv=tə | sec=5.2.1 | gloss=(tə-C)
+perf.3sm: taḥādara
+@ ḥadra | root=ḥ-d-r | type=A | deriv=base | sec=5.2.1 | gloss=(A)
+perf.3sm: ḥadra
+@ taḥādaga | root=ḥ-d-g | type=C | deriv=tə | sec=5.2.1 | gloss=(tə-C)
+perf.3sm: taḥādaga
+@ tərāda | root=r-d-y | type=C | deriv=tə | sec=5.2.1 | gloss=(tə-C, final SV)
+perf.3sm: tərāda
+@ rada | root=r-d-y | type=A | deriv=base | sec=5.2.1 | gloss=(A, final SV)
+perf.3sm: rada
+@ təmarāmara | root=m-r-m-r | type=C | deriv=tə | sec=5.2.1 | gloss=(tə-C)
+perf.3sm: təmarāmara
+@ təraʼāʼa | root=r-ʼ-y | type=D | deriv=tə | sec=5.2.1 | gloss=(tə-D)
+perf.3sm: təraʼāʼa
+@ təsālama | root=s-l-m | type=C | deriv=tə | sec=5.2.1 | gloss=(tə-C)
+perf.3sm: təsālama
+@ təsaʿāʿama | root=s-ʿ-m | type=D | deriv=tə | sec=5.2.1 | gloss=(tə-D)
+perf.3sm: təsaʿāʿama
+@ saʿama | root=s-ʿ-m | type=A | deriv=base | sec=5.2.1 | gloss=(A)
+perf.3sm: saʿama
+@ təlakāka | root=l-k-y | type=D | deriv=tə | sec=5.2.1 | gloss=(tə-D, final SV)
+perf.3sm: təlakāka
+@ təlāka | root=l-k-y | type=C | deriv=tə | sec=5.2.1 | gloss=(tə-C, final SV)
+perf.3sm: təlāka
+@ tahagāga | root=h-g-y | type=D | deriv=tə | sec=5.2.1 | gloss=(tə-D, final SV)
+perf.3sm: tahagāga
+@ tahāga | root=h-g-y | type=C | deriv=tə | sec=5.2.1 | gloss=(tə-C, final SV)
+perf.3sm: tahāga
+@ təsaʼāʼala | root=s-ʼ-l | type=D | deriv=tə | sec=5.2.1 | gloss=(tə-D)
+perf.3sm: təsaʼāʼala
+@ təsaʼala | root=s-ʼ-l | type=A | deriv=tə | sec=5.2.1 | gloss=(tə-A)
+perf.3sm: təsaʼala
+@ gesa | root=g-y-s | type=A | deriv=base | sec=5.2.1 | gloss=(A, medial y)
+perf.3sm: gesa
+@ ʼašmata | root=š-m-t | type=A | deriv=ʼa | sec=5.2.1 | gloss=(ʼa-A)
+perf.3sm: ʼašmata
+@ šamta | root=š-m-t | type=A | deriv=base | sec=5.2.1 | gloss=(A)
+perf.3sm: šamta
+@ ʼasbara | root=s-b-r | type=A | deriv=ʼa | sec=5.2.1 | gloss=(ʼa-A)
+perf.3sm: ʼasbara
+@ ʼazmata | root=z-m-t | type=A | deriv=ʼa | sec=5.2.1 | gloss=(ʼa-A)
+perf.3sm: ʼazmata
+@ zamta | root=z-m-t | type=A | deriv=base | sec=5.2.1 | gloss=(A)
+perf.3sm: zamta
+@ ʼandaqa | root=n-d-q | type=A | deriv=ʼa | sec=5.2.1 | gloss=(ʼa-A)
+perf.3sm: ʼandaqa
+@ nadqa | root=n-d-q | type=A | deriv=base | sec=5.2.1 | gloss=(A)
+perf.3sm: nadqa
+@ ʼaṣbaṭa | root=ṣ-b-ṭ | type=A | deriv=ʼa | sec=5.2.1 | gloss=(ʼa-A)
+perf.3sm: ʼaṣbaṭa
+@ ʼafanfana | root=f-n-f-n | type=A | deriv=ʼa | sec=5.2.1 | gloss=(ʼa-A, quadriradical)
+perf.3sm: ʼafanfana
+@ fanfana | root=f-n-f-n | type=A | deriv=base | sec=5.2.1 | gloss=(A, quadriradical)
+perf.3sm: fanfana
+@ ʼaqātala | root=q-t-l | type=C | deriv=ʼa | sec=5.2.1 | gloss=(ʼa-C)
+perf.3sm: ʼaqātala
+@ ʼaṭālaqa | root=ṭ-l-q | type=C | deriv=ʼa | sec=5.2.1 | gloss=(ʼa-C)
+perf.3sm: ʼaṭālaqa
+@ ʼazābaṭa | root=z-b-ṭ | type=C | deriv=ʼa | sec=5.2.1 | gloss=(ʼa-C)
+perf.3sm: ʼazābaṭa
+@ zābaṭa | root=z-b-ṭ | type=C | deriv=base | sec=5.2.1 | gloss=(C)
+perf.3sm: zābaṭa
+@ ʼaqṭara | root=q-ṭ-r | type=A | deriv=ʼa | sec=5.2.1 | gloss=(ʼa-A)
+perf.3sm: ʼaqṭara
+@ qaṭra | root=q-ṭ-r | type=A | deriv=base | sec=5.2.1 | gloss=(A)
+perf.3sm: qaṭra
+@ ʼaṣgaba | root=ṣ-g-b | type=A | deriv=ʼa | sec=5.2.1 | gloss=(ʼa-A)
+perf.3sm: ʼaṣgaba
+@ ṣagba | root=ṣ-g-b | type=A | deriv=base | sec=5.2.1 | gloss=(A)
+perf.3sm: ṣagba
+@ ʼamḥala | root=m-ḥ-l | type=A | deriv=ʼa | sec=5.2.1 | gloss=(ʼa-A, II-laryngal)
+perf.3sm: ʼamḥala
+@ maḥala | root=m-ḥ-l | type=A | deriv=base | sec=5.2.1 | gloss=(A, II-laryngal)
+perf.3sm: maḥala
+@ ʼasʼa | root=s-ʼ-y | type=A | deriv=ʼa | sec=5.2.1 | gloss=(ʼa-A of saʼa)
+perf.3sm: ʼasʼa
+@ saʼa | root=s-ʼ-y | type=A | deriv=base | sec=5.2.1 | gloss=(A)
+perf.3sm: saʼa
+@ ʼaṭlala | root=ṭ-l-l | type=A | deriv=ʼa | sec=5.2.1 | gloss=(ʼa-A of ṭalla)
+perf.3sm: ʼaṭlala
+@ ṭalla | root=ṭ-l-l | type=A | deriv=base | sec=5.2.1 | gloss=(A, doubled)
+perf.3sm: ṭalla
+@ ʼabʼa | root=b-y-ʼ | type=A | deriv=ʼa | sec=5.2.1 | gloss=(ʼa-A of baʼa)
+perf.3sm: ʼabʼa
+@ ʼašangala | root=š-n-g-l | type=A | deriv=ʼa | sec=5.2.1 | gloss=(ʼa-A, quadriradical)
+perf.3sm: ʼašangala
+@ šangala | root=š-n-g-l | type=A | deriv=base | sec=5.2.1 | gloss=(A, quadriradical)
+perf.3sm: šangala
+@ ʼabharara | root=b-h-r-r | type=A | deriv=ʼa | sec=5.2.1 | gloss=(ʼa-A, quadriradical)
+perf.3sm: ʼabharara
+@ baharara | root=b-h-r-r | type=A | deriv=base | sec=5.2.1 | gloss=(A, quadriradical)
+perf.3sm: baharara
+@ ʼagarrama | root=g-r-m | type=B | deriv=ʼa | sec=5.2.1 | gloss=(ʼa-B)
+perf.3sm: ʼagarrama
+@ ʼafrasa | root=f-r-s | type=A | deriv=ʼa | sec=5.2.1 | gloss=(ʼa-A)
+perf.3sm: ʼafrasa
+@ farsa | root=f-r-s | type=A | deriv=base | sec=5.2.1 | gloss=(A)
+perf.3sm: farsa
+@ qabbala | root=q-b-l | type=B | deriv=base | sec=5.2.1 | gloss=(B)
+perf.3sm: qabbala
+@ ʼatgassa | root=g-s-s | type=A | deriv=ʼat | sec=5.2.1 | gloss=(ʼat-A, doubled)
+perf.3sm: ʼatgassa
+@ təgassa | root=g-s-s | type=A | deriv=tə | sec=5.2.1 | gloss=(tə-A, doubled)
+perf.3sm: təgassa
+@ ʼatkarra | root=k-r-r | type=A | deriv=ʼat | sec=5.2.1 | gloss=(ʼat-A, doubled)
+perf.3sm: ʼatkarra
+@ təkarra | root=k-r-r | type=A | deriv=tə | sec=5.2.1 | gloss=(tə-A, doubled)
+perf.3sm: təkarra
+@ təlaḥama | root=l-ḥ-m | type=A | deriv=tə | sec=5.2.1 | gloss=(tə-A, II-laryngal)
+perf.3sm: təlaḥama
+@ ʼatkāsata | root=k-s-t | type=C | deriv=ʼat | sec=5.2.1 | gloss=(ʼat-C)
+perf.3sm: ʼatkāsata
+@ təkāsata | root=k-s-t | type=C | deriv=tə | sec=5.2.1 | gloss=(tə-C)
+perf.3sm: təkāsata
+@ ʼaddāla | root=d-l-y | type=C | deriv=ʼat | sec=5.2.1 | gloss=(ʼat-C, t assimilated)
+perf.3sm: ʼaddāla
+@ tədāla | root=d-l-y | type=C | deriv=tə | sec=5.2.1 | gloss=(tə-C, final SV)
+perf.3sm: tədāla
+@ ʼatgādaba | root=g-d-b | type=C | deriv=ʼat | sec=5.2.1 | gloss=(ʼat-C)
+perf.3sm: ʼatgādaba
+@ ʼatkāfala | root=k-f-l | type=C | deriv=ʼat | sec=5.2.1 | gloss=(ʼat-C)
+perf.3sm: ʼatkāfala
+@ təkāfala | root=k-f-l | type=C | deriv=tə | sec=5.2.1 | gloss=(tə-C)
+perf.3sm: təkāfala
+@ ʼatnābara | root=n-b-r | type=C | deriv=ʼat | sec=5.2.1 | gloss=(ʼat-C)
+perf.3sm: ʼatnābara
+@ tənābara | root=n-b-r | type=C | deriv=tə | sec=5.2.1 | gloss=(tə-C)
+perf.3sm: tənābara
+@ ʼatkābata | root=k-b-t | type=C | deriv=ʼat | sec=5.2.1 | gloss=(ʼat-C)
+perf.3sm: ʼatkābata
+@ təkabbata.2 | root=k-b-t | type=B | deriv=tə | sec=5.2.1 | gloss=(tə-B)
+perf.3sm: təkabbata
+@ ʼatfarārha | root=f-r-h | type=D | deriv=ʼat | sec=5.2.1 | gloss=(ʼat-D, III-laryngal)
+perf.3sm: ʼatfarārha
+@ təfarrəha | root=f-r-h | type=B | deriv=tə | sec=5.2.1 | gloss=(tə-B, III-laryngal)
+perf.3sm: təfarrəha
+@ ʼatḥādara | root=ḥ-d-r | type=C | deriv=ʼat | sec=5.2.1 | gloss=(ʼat-C)
+perf.3sm: ʼatḥādara
+@ ḥādara | root=ḥ-d-r | type=C | deriv=base | sec=5.2.1 | gloss=(C)
+perf.3sm: ḥādara
+@ ʼatʼasara | root=ʼ-s-r | type=A | deriv=ʼat | sec=5.2.1 | gloss=(ʼat-A)
+perf.3sm: ʼatʼasara
+@ ʼasra | root=ʼ-s-r | type=A | deriv=base | sec=5.2.1 | gloss=(A)
+perf.3sm: ʼasra   [fix: printed asra]
+@ ʼatḥadaga | root=ḥ-d-g | type=A | deriv=ʼat | sec=5.2.1 | gloss=(ʼat-A)
+perf.3sm: ʼatḥadaga
+@ ʼatʿasa | root=ʿ-s-y | type=A | deriv=ʼat | sec=5.2.1 | gloss=(ʼat-A, final SV)
+perf.3sm: ʼatʿasa
+@ ʿasa | root=ʿ-s-y | type=A | deriv=base | sec=5.2.1 | gloss=(A, final SV)
+perf.3sm: ʿasa
+@ ʼathalālaka | root=h-l-k | type=D | deriv=ʼat | sec=5.2.1 | gloss=(ʼat-D)
+perf.3sm: ʼathalālaka
+@ halālaka | root=h-l-k | type=D | deriv=base | sec=5.2.1 | gloss=(D)
+perf.3sm: halālaka
+@ ʼattaqtala | root=q-t-l | type=A | deriv=ʼatta | sec=5.2.1 | gloss=(ʼatta-A)
+perf.3sm: ʼattaqtala
+@ ʼattamṣəʼa | root=m-ṣ-ʼ | type=A | deriv=ʼatta | sec=5.2.1 | gloss=(ʼatta-A, III-laryngal)
+perf.3sm: ʼattamṣəʼa
+@ ʼattaftəḥa | root=f-t-ḥ | type=A | deriv=ʼatta | sec=5.2.1 | gloss=(ʼatta-A, III-laryngal)
+perf.3sm: ʼattaftəḥa
+@ fatḥa | root=f-t-ḥ | type=A | deriv=base | sec=5.2.1 | gloss=(A)
+perf.3sm: fatḥa
+@ qarč̣a | root=q-r-č̣ | type=A | deriv=base | sec=5.2.1 | gloss=to cut off
+perf.3sm: qarč̣a   [fix: printed qarc̣a]
+@ ʼattabtaka | root=b-t-k | type=A | deriv=ʼatta | sec=5.2.1 | gloss=(ʼatta-A)
+perf.3sm: ʼattabtaka
+@ ʼattakləʼa | root=k-l-ʼ | type=A | deriv=ʼatta | sec=5.2.1 | gloss=(ʼatta-A, III-laryngal)
+perf.3sm: ʼattakləʼa
+@ ʼattandaqa | root=n-d-q | type=A | deriv=ʼatta | sec=5.2.1 | gloss=(ʼatta-A)
+perf.3sm: ʼattandaqa
+@ ʼattafgara | root=f-g-r | type=A | deriv=ʼatta | sec=5.2.1 | gloss=(ʼatta-A)
+perf.3sm: ʼattafgara
+@ ʼanṣarṣara | root=ṣ-r-ṣ-r | type=A | deriv=ʼan | sec=5.2.1 | gloss=(ʼan-A)
+perf.3sm: ʼanṣarṣara
+@ ʼattanṣarṣara | root=ṣ-r-ṣ-r | type=A | deriv=ʼattan | sec=5.2.1 | gloss=(ʼattan-A)
+perf.3sm: ʼattanṣarṣara
+@ ṣarṣara | root=ṣ-r-ṣ-r | type=A | deriv=base | sec=5.2.1 | gloss=(A)
+perf.3sm: ṣarṣara
+@ ʼattanqaṭqaṭa | root=q-ṭ-q-ṭ | type=A | deriv=ʼattan | sec=5.2.1 | gloss=(ʼattan-A)
+perf.3sm: ʼattanqaṭqaṭa
+@ qaṭqaṭa | root=q-ṭ-q-ṭ | type=A | deriv=base | sec=5.2.1 | gloss=(A)
+perf.3sm: qaṭqaṭa
+@ ʼangargara | root=g-r-g-r | type=A | deriv=ʼan | sec=5.2.1 | gloss=(ʼan-A)
+perf.3sm: ʼangargara
+@ ʼattangargara | root=g-r-g-r | type=A | deriv=ʼattan | sec=5.2.1 | gloss=(ʼattan-A)
+perf.3sm: ʼattangargara
+@ gargara | root=g-r-g-r | type=A | deriv=base | sec=5.2.1 | gloss=(A)
+perf.3sm: gargara
+@ ʼanqalqala | root=q-l-q-l | type=A | deriv=ʼan | sec=5.2.1 | gloss=(ʼan-A)
+perf.3sm: ʼanqalqala
+@ ʼangalḥaṭa | root=g-l-ḥ-ṭ | type=A | deriv=ʼan | sec=5.2.1 | gloss=(ʼan-A)
+perf.3sm: ʼangalḥaṭa
+@ ǧalḥaṭa | root=ǧ-l-ḥ-ṭ | type=A | deriv=base | sec=5.2.1 | gloss=(A)
+perf.3sm: ǧalḥaṭa
+@ ṭoṭala | root=ṭ-w-ṭ-l | type=A | deriv=base | sec=5.2.1 | gloss=(A, w → o)
+perf.3sm: ṭoṭala
+@ ʼasnaqnaqa | root=n-q-n-q | type=A | deriv=ʼas | sec=5.2.1 | gloss=(ʼas-A)
+perf.3sm: ʼasnaqnaqa
+@ ʼattasnaqnaqa | root=n-q-n-q | type=A | deriv=ʼattas | sec=5.2.1 | gloss=(ʼattas-A)
+perf.3sm: ʼattasnaqnaqa
+@ naqnaqa | root=n-q-n-q | type=A | deriv=base | sec=5.2.1 | gloss=(A)
+perf.3sm: naqnaqa
+@ ʼasqamqama | root=q-m-q-m | type=A | deriv=ʼas | sec=5.2.1 | gloss=(ʼas-A)
+perf.3sm: ʼasqamqama
+@ ʼasdamdama | root=d-m-d-m | type=A | deriv=ʼas | sec=5.2.1 | gloss=(ʼas-A)
+perf.3sm: ʼasdamdama
+@ tədamdama | root=d-m-d-m | type=A | deriv=tə | sec=5.2.1 | gloss=(tə-A)
+perf.3sm: tədamdama
+@ ʼaslola | root=l-w-l-y | type=A | deriv=ʼas | sec=5.2.1 | gloss=(ʼas-A, w → o, final SV)
+perf.3sm: ʼaslola
+@ lawla | root=l-w-l-y | type=A | deriv=base | sec=5.2.1 | gloss=(A, final SV)
+perf.3sm: lawla
+@ ʼastafāšara | root=f-š-r | type=C | deriv=ʼasta | sec=5.2.1 | gloss=to explain (Arabic istafsara)
+perf.3sm: ʼastafāšara
+@ ʼastahala | root=ʼ-h-l | type=A | deriv=ʼasta | sec=5.2.1 | gloss=to deserve (Arabic istaʼhala)
+perf.3sm: ʼastahala
+
+# coexisting verbs cited in § 5.10–5.11
+@ hālafa | root=h-l-f | type=C | deriv=base | sec=5.10 | gloss=to chatter
+@ haṭṭala | root=h-ṭ-l | type=B | deriv=base | sec=5.10 | gloss=to tremble
+@ galba | root=g-l-b | type=A | deriv=base | sec=5.10 | gloss=to be startled
+@ baḥala | root=b-ḥ-l | type=A | deriv=base | sec=5.11.1 | gloss=to pardon
+@ qāmač̣a | root=q-m-č̣ | type=C | deriv=base | sec=5.11.1 | gloss=to wink
+@ ʼabalbala | root=b-l-b-l | type=A | deriv=ʼa | sec=5.11.1 | gloss=to move rapidly to and fro
+@ rassa | root=r-s-s | type=A | deriv=base | sec=5.11.1 | gloss=to itch
+@ lahaba | root=l-h-b | type=A | deriv=base | sec=5.11.1 | gloss=to sweat
+@ təfaršaka | root=f-r-š-k | type=A | deriv=tə | sec=5.11.1 | gloss=to break into pieces
+@ kaškaša | root=k-š-k-š | type=A | deriv=base | sec=5.11.1 | gloss=to clatter
+@ təlawaṭa | root=l-w-ṭ | type=B | deriv=tə | sec=5.11.1 | gloss=to be exchanged
+@ lafqa | root=l-f-q | type=A | deriv=base | sec=5.11.1 | gloss=to sew
+@ waswasa | root=w-s-w-s | type=A | deriv=base | sec=5.11.1 | gloss=to move (v.i.)
+@ ḥalaqlaqa | root=ḥ-l-q-l-q | type=A | deriv=base | sec=5.11.1 | gloss=to weep
+@ ʼatmama | root=t-m-m | type=A | deriv=ʼa | sec=5.11.1 | gloss=to complete
+
+# ---------------------------------------------------------------- § 5.11 compounds (first element + bela / ʼabala / ʼattabala / wada / gaʼa)
+# cmp: <first element> | <light verb lemma> | gloss      → the light verb inflects normally; gold = citation (perf 3sm)
+@ gaʼa | root=g-ʼ-y | type=A | deriv=base | sec=5.11 | gloss=to become
+perf.3sm: gaʼa
+cmp: bəḥəl | bela | to pardon
+cmp: qəməč̣ | bela | to wink
+cmp: balbal | bela | to rattle
+cmp: habbab | bela | to blaze
+cmp: fuf | bela | to blow (exhale)
+cmp: qaʿ | bela | to make a sharp noise
+cmp: šut | bela | to refuse
+cmp: waha | bela | to be astonished
+cmp: hey | bela | to scare away
+cmp: rasras | bela | to scratch (v.i.)
+cmp: ləhəb | bela | to sweat
+cmp: fəršək | bela | to break into pieces (v.i.)
+cmp: kaškaš | bela | to clatter
+cmp: ʿəwədwəd | bela | to grow dark
+cmp: bət | bela | to spring forth
+cmp: senrik | bela | to sniff
+cmp: təftəf | bela | to puff
+cmp: təm | bela | to be silent
+cmp: balač̣lač̣ | bela | to glitter
+cmp: balač̣lač̣ | ʼabala | to make glitter
+cmp: ləwəṭ | bela | to be exchanged
+cmp: ləwəṭ | ʼabala | to exchange
+cmp: sanni | bela | to agree
+cmp: sanni | ʼabala | to convince
+cmp: sanni | ʼattabala | to get one's permission
+cmp: šiš | bela | to select
+cmp: šiš | ʼattabala | to make selected
+cmp: kaf | bela | to sit
+cmp: kaf | ʼabala | to make sit
+cmp: bah | bela | to rejoice (v.i.)
+cmp: bah | ʼabala | to rejoice (v.t.)
+cmp: kəb | bela | to get up
+cmp: kəb | ʼabala | to raise
+cmp: ləfəq | ʼabala | to sew a little
+cmp: ləfəq | bela | (passive of ləfəq ʼabala)
+cmp: ləkəf | ʼabala | to throw a little/all
+cmp: ləkəf | bela | (passive of ləkəf ʼabala)
+cmp: waswas | bela | to move to and fro
+cmp: ḥələqləq | bela | to weep a little
+cmp: tamam | bela | to complete all
+cmp: qənəṣ | bela | to get up for a short while
+cmp: koy | bela | to hurry
+cmp: koy | wada | to hurry
+cmp: ǧamam | bela | to be silent
+cmp: ǧamam | wada | to be silent
+cmp: bərəf | bela | to clear off
+cmp: bərəf | wada | to clear off
+cmp: kələḥ | bela | to look at
+cmp: kələḥ | wada | to look at
+cmp: taftaf | bela | to drip
+cmp: taftaf | wada | to drip
+cmp: dəb | bela | to fall down
+cmp: dəb | wada | to fall down
+cmp: dəb | ʼabala | to overthrow
+cmp: ʿaqəl | wada | to be patient
+cmp: qalb | wada | to wish
+cmp: yak | wada | to hurry
+cmp: qaz | gaʼa | to become thin
+cmp: ʼaǧhab | gaʼa | to become senseless
+cmp: hawaššəs | gaʼa | to break to pieces
+cmp: bad | gaʼa | to become poor
+cmp: hən | gaʼa | to become speechless
+cmp: hən | wada | to make speechless
+cmp: harawraw | gaʼa | to ripen (v.i.)
+cmp: harawraw | wada | to ripen (v.t.)
+cmp: ṣar waṣar | gaʼa | to form groups (v.i.)
+cmp: ṣar waṣar | wada | to form groups (v.t.)
+# attested inflected compounds
+cmpform: sanni bello | sanni+bela | perf.3sm>3sm | he said OK to him
+cmpform: sanni ʼiləbəllom | sanni+bela | neg.impf.3sm>3pm | he does not give them his consent

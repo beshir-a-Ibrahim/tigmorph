@@ -1,0 +1,278 @@
+latin	pos	gloss	feats	sfx	art	src	geez_extra	w
+ʼana	PRON	I	Person=1,Number=Sg	none	no	§3.1		
+ḥəna	PRON	we	Person=1,Number=Pl	none	no	§3.1		
+ʼənta	PRON	you (m.sg.)	Person=2,Number=Sg,Gender=M	none	no	§3.1		
+ʼənti	PRON	you (f.sg.)	Person=2,Number=Sg,Gender=F	none	no	§3.1		
+ʼəntum	PRON	you (m.pl.)	Person=2,Number=Pl,Gender=M	none	no	§3.1		
+ʼəntən	PRON	you (f.pl.)	Person=2,Number=Pl,Gender=F	none	no	§3.1		
+hətu	PRON	he	Person=3,Number=Sg,Gender=M	none	no	§3.1		
+həta	PRON	she	Person=3,Number=Sg,Gender=F	none	no	§3.1		
+hətom	PRON	they (m.)	Person=3,Number=Pl,Gender=M	none	no	§3.1		
+hətan	PRON	they (f.)	Person=3,Number=Pl,Gender=F	none	no	§3.1		
+tu	COP	is (3m.sg.)	Person=3,Number=Sg,Gender=M	none	no	§4.1		
+ta	COP	is (3f.sg.)	Person=3,Number=Sg,Gender=F	none	no	§4.1		
+tom	COP	are (3m.pl.)	Person=3,Number=Pl,Gender=M	none	no	§4.1		
+tan	COP	are (3f.pl.)	Person=3,Number=Pl,Gender=F	none	no	§4.1		
+tətu	COP	is (explicative, 3m.sg.)	Person=3,Number=Sg,Gender=M,Expl=Yes	none	no	§4.1.5		
+təta	COP	is (explicative, 3f.sg.)	Person=3,Number=Sg,Gender=F,Expl=Yes	none	no	§4.1.5		
+ʼikon	COP	is not	Person=3,Neg=Yes	none	no	§4.1.1		
+ʼiken	COP	is not	Person=3,Neg=Yes	none	no	§3.6		
+nos	PRON	self (reflexive)	PronType=Rflx	cvc	no	§3.2		
+nosnos	PRON	each other, among themselves	PronType=Rcp	cvc	no	§3.3		
+ḥəd	PRON	each other	PronType=Rcp	none	no	§3.3		
+raʼas	PRON	self (lit. head)	PronType=Rflx	cvc	no	§3.2.4		
+nāy	PRON	of; that of (possessive)	PronType=Poss	plain	assim	§3.4, §8.2.1(23)		
+mi	PRON	what?	PronType=Int	none	no	§3.5		
+man	PRON	who? whose?	PronType=Int	none	no	§3.5		
+ʼayi	PRON	which? (m.sg.)	PronType=Int,Number=Sg,Gender=M	none	no	§3.5		
+ʼaya	PRON	which? (f.sg.)	PronType=Int,Number=Sg,Gender=F	none	no	§3.5		
+ʼayom	PRON	which? (m.pl.)	PronType=Int,Number=Pl,Gender=M	none	no	§3.5		
+ʼayan	PRON	which? (f.pl.)	PronType=Int,Number=Pl,Gender=F	none	no	§3.5		
+woro	PRON	someone; one (m.)	PronType=Ind,Gender=M	none	no	§3.7		
+worot	PRON	someone; one (m.)	PronType=Ind,Gender=M	cvc	no	§3.7, §7.1.3		
+ḥatte	PRON	someone, something; one (f.)	PronType=Ind,Gender=F	h	no	§3.7		
+manma	PRON	no one, nobody	PronType=Neg	none	no	§3.7		
+ʼəgale	PRON	so and so	PronType=Ind	none	no	§3.7		
+ʼəgaletāy	PRON	so and so (m.)	PronType=Ind,Gender=M	none	no	§3.7		
+ʼəgaletat	PRON	so and so (f.)	PronType=Ind,Gender=F	none	no	§3.7		
+fəlān	PRON	such and such	PronType=Ind	none	no	§3.7		
+gale	PRON	some, something; a little	PronType=Ind	h	no	§3.7		
+galegār	PRON	something	PronType=Ind	none	no	§3.7		
+dəla	PRON	whoever, whatever	PronType=Ind	none	no	§3.7		
+sema	PRON	anything, nothing	PronType=Ind	none	no	§3.7		
+ʼəlli	DEM	this (m.)	Number=Sg,Gender=M,Deixis=Prox	none	no	§3.8		
+ʼəlla	DEM	this (f.)	Number=Sg,Gender=F,Deixis=Prox	none	no	§3.8		
+ʼəllom	DEM	these (m.)	Number=Pl,Gender=M,Deixis=Prox	none	no	§3.8		
+ʼəllan	DEM	these (f.)	Number=Pl,Gender=F,Deixis=Prox	none	no	§3.8		
+lahay	DEM	that (m.)	Number=Sg,Gender=M,Deixis=Remt	none	no	§3.8		
+lohay	DEM	that (m.)	Number=Sg,Gender=M,Deixis=Remt	none	no	§3.8		
+ləhay	DEM	that (m.)	Number=Sg,Gender=M,Deixis=Remt	none	no	§3.8		
+laha	DEM	that (f.)	Number=Sg,Gender=F,Deixis=Remt	none	no	§3.8		
+loha	DEM	that (f.)	Number=Sg,Gender=F,Deixis=Remt	none	no	§3.8		
+leha	DEM	that (f.)	Number=Sg,Gender=F,Deixis=Remt	none	no	§3.8		
+lahom	DEM	those (m.)	Number=Pl,Gender=M,Deixis=Remt	none	no	§3.8		
+lohom	DEM	those (m.)	Number=Pl,Gender=M,Deixis=Remt	none	no	§3.8		
+lehom	DEM	those (m.)	Number=Pl,Gender=M,Deixis=Remt	none	no	§3.8		
+lahan	DEM	those (f.)	Number=Pl,Gender=F,Deixis=Remt	none	no	§3.8		
+lohan	DEM	those (f.)	Number=Pl,Gender=F,Deixis=Remt	none	no	§3.8		
+lehan	DEM	those (f.)	Number=Pl,Gender=F,Deixis=Remt	none	no	§3.8		
+la	DET	the (definite article)	Definite=Def	none	no	§2.11		
+ʼi	PART	not (negative particle)	Neg=Yes	none	no	§4.1.1		
+mən laʿal	PREP	above	_	none	no	§8.2.1(1)		
+mən ḥaras	PREP	because of	_	none	no	§8.2.1(2)		
+ḥaqo	PREP	after	_	h	plain	§8.2.1(3)		
+mən ḥənet	PREP	instead of	_	none	no	§8.2.1(4)		
+ḥante	PREP	under	_	h	plain	§8.2.1(5)		
+ḥan	PREP	under	_	none	no	§8.2.1(5)		
+ḥad	PREP	up to, about	_	none	no	§8.2.1(6)		1.0
+məsəl	PREP	with	_	cvc	assim	§8.2.1(7)		
+mašanqal	PREP	over, above	_	cvc	no	§8.2.1(9)		
+maṭor	PREP	at the side of	_	cvc	no	§8.2.1(10)		
+matān	PREP	for the sake of	_	cvc	no	§8.2.1(11)		
+mən	PREP	from; than	_	gem	assim	§8.2.1(12)		
+məgəb	PREP	in the midst of	_	cvc	no	§8.2.1(13)		
+raḥar	PREP	behind	_	cvc	no	§8.2.1(14)		
+səməṭ	PREP	near, beside	_	cvc	no	§8.2.1(16)		
+sabbat	PREP	because of	_	cvc	plain	§8.2.1(17)		
+šankat	PREP	towards	_	cvc	no	§8.2.1(18)		
+šanak	PREP	towards	_	cvc	no	§8.2.1(18)		
+qəblāt	PREP	opposite	_	cvc	no	§8.2.1(19)		
+qabəl	PREP	opposite, in front of	_	cvc	no	§8.2.1(19)		
+qabat	PREP	inside	_	cvc	no	§8.2.1(20)		
+qadam	PREP	before	_	cvc	plain	§8.2.1(21)		
+taḥat	PREP	under, below	_	cvc	no	§8.2.1(22)		
+ʼəl	PREP	to, for	_	el	no	§8.2.1(24)		
+ʼəmbal	PREP	without, except	_	h	plain	§8.2.1(25)		
+ʼəraf	PREP	near	_	cvc	no	§8.2.1(26)		
+ʼasar	PREP	after, following	_	cvc	no	§8.2.1(27)		
+ʼasək	PREP	until, as far as	_	cvc	plain	§8.2.1(28)		
+ʼəb	PREP	with, by, about	_	b	assim	§8.2.1(29)		
+ʼət	PREP	in, on, to	_	gem	assim	§8.2.1(30)		
+ʼakəl	PREP	as much as	_	cvc	plain	§8.2.1(31)		
+ʼakān	PREP	instead of, in place of	_	cvc	no	§8.2.1(32)		
+ʼəzām	PREP	instead of	_	cvc	no	§8.2.1(33)		
+ʼəgəl	PREP	for, to (object marker)	_	cvc	assim	§8.2.1(34)		
+ʿaf	PREP	before	_	none	no	§8.2.1(35)		
+kəm	PREP	as, like	_	none	plain	§8.2.1(36)		
+kəmsal	PREP	as, like	_	h	plain	§8.2.1(37)		
+kara	PREP	with the company of, such as	_	h	no	§8.2.1(38)		5
+kabəd	PREP	inside	_	cvc	no	§8.2.1(39)		
+ʿadad	PREP	according to	_	none	no	§8.2.1(40)		
+darb	PREP	behind, after	_	cvc	no	§8.2.1(41)		
+dib	PREP	to, into, at, on	_	gem	assim	§8.2.1(42)		
+dəwār	PREP	around	_	cvc	no	§8.2.1(43)		
+ǧallāb	PREP	for the sake of	_	cvc	no	§8.2.1(44)		
+gərra	PREP	behind, after	_	h	no	§8.2.1(45)		
+go	PREP	at, with (chez)	_	h	no	§8.2.1(46)		1.0
+gor	PREP	at, with (chez)	_	cvc	no	§8.2.1(46)		
+gədor	PREP	at, with (chez)	_	cvc	no	§8.2.1(47)		
+gabay	PREP	by means of	_	none	no	§8.2.1(48)		
+fənge	PREP	between	_	h	plain	§8.2.1(49)		
+mənge	PREP	between	_	h	no	§8.2.1(49)		
+fəza	PREP	for the sake of	_	h	no	§8.2.1(50)		
+kəl	ADJ	all, every	PronType=Tot	gem	no	§2.10.2		
+kullu	ADJ	all (of it)	PronType=Tot	none	no	§8.1.4		
+wa	CONJ	and; or	_	none	no	§8.3.2(1)		
+ma	CONJ	or	_	none	no	§8.3.2(2)		
+wok	CONJ	or	_	none	no	§8.3.2(3)		
+ka	CONJ	and, so, then	_	none	no	§8.3.2(4)		
+daʼam	CONJ	but	_	none	no	§8.3.2(5)		
+daʼikon	CONJ	(otherwise; makes the clause subordinate)	_	none	no	§8.3.2(6)		
+ʼəbmi	SCONJ	because	_	none	no	§8.3.3(3)		
+ʼəgəlmi	SCONJ	because	_	none	no	§8.3.3(4)		
+ʼəndo	SCONJ	when, after	_	none	no	§8.3.3(9)	እንዴ	
+ʼənday	SCONJ	before, without	_	none	no	§8.3.3(10)		
+day	SCONJ	before, without	_	none	no	§8.3.3(10)		4
+ʼəwān	SCONJ	when; time	_	none	no	§8.3.3(13)		
+wakəd	SCONJ	when	_	none	no	§8.3.3(16)		
+dol	SCONJ	when; time	_	none	plain	§8.3.3(18)		
+lākin	CONJ	but	_	none	no	(corpus)		
+ʼaw	CONJ	or	_	none	no	(corpus)		
+haye	ADV	also, now, however	_	none	no	§8.1.7	ህዬ	
+lāma	ADV	also	_	none	no	§8.1.7		
+lāta	ADV	however, but	_	none	no	§8.1.7		
+leṭa	ADV	only	_	none	no	§8.1.7		
+mənma	SCONJ	although, even if	_	none	no	§8.1.7		
+mami	ADV	isn't it? (tag question)	_	none	no	§8.1.7		
+mənna	ADV	thus, but (in mənna ta)	_	none	no	§8.1.7		
+ʼabba	ADV	rather, on the contrary	_	none	no	§8.1.7		
+ʼənde	ADV	well then	_	none	no	§8.1.7		1.0
+ʼagədda	ADV	rather, especially	_	none	no	§8.1.7		
+kama	ADV	then, now then	_	none	no	§8.1.7		
+kət	ADV	then	_	none	no	§8.1.7		
+kəʼənna	ADV	thus, like this	_	none	no	§8.1.7		
+kəʼən	ADV	thus, like this	_	none	no	§8.1.7		
+kəʼənni	ADV	thus, like this	_	none	no	§8.1.7		
+ʿādu	ADV	still, yet	_	none	no	§8.1.7		
+gadəm	ADV	now, now then, thus	_	none	no	§8.1.7		
+ʼaze	ADV	now	_	none	no	§8.1.6		
+mədol	ADV	when?	PronType=Int	none	no	§8.1.7.1		
+maʼaze	ADV	when?	PronType=Int	none	no	§8.1.7.1		
+ʼəttaya	ADV	where?	PronType=Int	none	no	§8.1.7.1		
+ʼətʼaya	ADV	where?	PronType=Int	none	no	§8.1.7.1		
+ʼəšwo	ADV	where is? (m.sg.)	PronType=Int,Number=Sg,Gender=M	none	no	§8.1.7.1		
+ʼəšwa	ADV	where is? (f.sg.)	PronType=Int,Number=Sg,Gender=F	none	no	§8.1.7.1		
+ʼəšwom	ADV	where are? (m.pl.)	PronType=Int,Number=Pl,Gender=M	none	no	§8.1.7.1		
+ʼəšwan	ADV	where are? (f.pl.)	PronType=Int,Number=Pl,Gender=F	none	no	§8.1.7.1		
+kaʼafo	ADV	how?	PronType=Int	none	no	§8.1.7.1	ከፎ	
+kam	ADV	how much? how many?	PronType=Int	none	no	§8.1.7.1		1.0
+man ʼammər	ADV	maybe	_	none	no	§8.1.7.2		
+lābəd	ADV	perhaps	_	none	no	§8.1.7.2		
+kando	ADV	perhaps	_	none	no	§8.1.7.2		
+ʼafo	INTJ	yes	_	none	no	§8.1.7.3		
+ʿābe	INTJ	yes	_	none	no	§8.1.7.3		
+ʼoho	INTJ	yes (attentive)	_	none	no	§8.1.7.3		
+ʼifālu	INTJ	no	_	none	no	§8.1.7.3		
+ʿabi	INTJ	yes, of course	_	none	no	§8.1.7.3		
+yaʼ	INTJ	not at all	_	none	no	§8.1.7.3		
+wo	INTJ	O! (vocative)	_	none	no	§3.1.5		
+yah	INTJ	O! (vocative)	_	none	no	§3.1.4		
+laʿal	ADV	up, upwards	_	none	no	§8.1.5		
+ʼənze	ADV	here	_	none	no	§8.1.5		
+ken	ADV	there, on the other side	_	none	no	§8.1.5		
+yom	ADV	today	_	none	no	§8.1.6		
+hādel	ADV	today	_	none	no	§8.1.6		
+māle	ADV	yesterday	_	none	no	§8.1.6		
+faǧər	ADV	tomorrow (morning)	_	none	no	§8.1.6		
+fangoḥ	ADV	tomorrow	_	none	no	§8.1.6		
+ʼaddaḥa	ADV	at noon	_	none	no	§8.1.6		
+ḥar	ADV	then, after that	_	none	no	§8.1.6		
+məndəlla	ADV	from that time on	_	none	no	§8.1.6		
+mənmənna	ADV	from that time on	_	none	no	§8.1.6		
+dima	ADV	ever, always	_	none	no	§8.1.6		
+ʼəwur	ADV	never (with negative)	_	none	no	§8.1.6		
+ban	ADV	alone	_	cvc	no	§8.1.4		
+bayn	ADV	alone	_	cvc	no	§8.1.4		
+bərāq	ADV	naked, empty	_	cvc	no	§8.1.1		
+lazayəd	ADV	mostly, more, most	_	none	no	§8.1.4		
+ʼagid	ADV	quickly	_	none	no	§8.1.4		
+bagid	ADV	quickly	_	none	no	§8.1.4		
+ʼagidat	ADV	quickly	_	none	no	§8.1.4		
+bilu	ADV	gradually, soon	_	none	no	§8.1.4		
+bila	ADV	gradually, soon	_	none	no	§8.1.4		
+maseḥ	ADV	in vain	_	none	no	§8.1.4		
+bəlāš	ADV	for nothing	_	none	no	§8.1.4		
+gəməš	ADV	for nothing	_	none	no	§8.1.4		
+bəzuḥ	ADJ	much, many, very	_	none	no	§8.1.2	ብዞሕ	
+sanni	ADJ	good, well	_	none	no	§8.1.2		
+rəḥuq	ADJ	far	_	none	no	§8.1.2		
+ʼəkkit	ADJ	bad, evil	_	none	no	§8.1.2		
+rayim	ADJ	long, far	_	none	no	§8.1.2		
+kəlʼot	NUM	two (m.)	NumType=Card,Gender=M	none	no	§7.1		
+kəlʼe	NUM	two (f.)	NumType=Card,Gender=F	none	no	§7.1		
+salas	NUM	three	NumType=Card	none	no	§7.1		
+ʼarbaʿ	NUM	four	NumType=Card	none	no	§7.1		
+ḥaməs	NUM	five	NumType=Card	none	no	§7.1		
+səs	NUM	six	NumType=Card	none	no	§7.1		
+sabuʿ	NUM	seven	NumType=Card	none	no	§7.1		
+samān	NUM	eight	NumType=Card	none	no	§7.1		
+səʿ	NUM	nine	NumType=Card	none	no	§7.1		
+ʿasər	NUM	ten	NumType=Card	none	no	§7.1		
+ʿəsra	NUM	twenty	NumType=Card	none	no	§7.1		
+salāsa	NUM	thirty	NumType=Card	none	no	§7.1		
+ʼarbəʿa	NUM	forty	NumType=Card	none	no	§7.1		
+ḥəmsa	NUM	fifty	NumType=Card	none	no	§7.1		
+səssa	NUM	sixty	NumType=Card	none	no	§7.1		
+sabʿa	NUM	seventy	NumType=Card	none	no	§7.1		
+samānya	NUM	eighty	NumType=Card	none	no	§7.1		
+saʿa	NUM	ninety	NumType=Card	none	no	§7.1		
+tasʿa	NUM	ninety	NumType=Card	none	no	§7.1		
+məʼət	NUM	hundred	NumType=Card	none	no	§7.1		
+ʼamʼāt	NUM	hundreds	NumType=Card,Number=Pl	none	no	§7.1		
+šəḥ	NUM	thousand	NumType=Card	none	no	§7.1		
+ʼašḥāt	NUM	thousands	NumType=Card,Number=Pl	none	no	§7.1		
+ʼalf	NUM	thousand	NumType=Card	none	no	(corpus)		
+worworot	NUM	one each (m.)	NumType=Dist,Gender=M	none	no	§7.1.2		
+ḥatḥatte	NUM	one each (f.)	NumType=Dist,Gender=F	none	no	§7.1.2		
+kəlkəlʼot	NUM	two each	NumType=Dist	none	no	§7.1.2		
+salsalas	NUM	three each	NumType=Dist	none	no	§7.1.2		
+ʿasʿasər	NUM	ten each	NumType=Dist	none	no	§7.1.2		
+qadāmāy	NUM	first (m.)	NumType=Ord,Gender=M	none	no	§7.2		
+qadāmāyt	NUM	first (f.)	NumType=Ord,Gender=F	none	no	§7.2		
+kāləʼ	NUM	second	NumType=Ord	none	no	§7.2		
+kālʼāy	NUM	second (m.)	NumType=Ord,Gender=M	none	no	§7.2		
+kālʼāyt	NUM	second (f.)	NumType=Ord,Gender=F	none	no	§7.2		
+sāləs	NUM	third	NumType=Ord	none	no	§7.2		
+sālsāy	NUM	third (m.)	NumType=Ord,Gender=M	none	no	§7.2		
+sālsāyt	NUM	third (f.)	NumType=Ord,Gender=F	none	no	§7.2		
+rābʿāy	NUM	fourth (m.)	NumType=Ord,Gender=M	none	no	§7.2		
+rābʿāyt	NUM	fourth (f.)	NumType=Ord,Gender=F	none	no	§7.2		
+ḥāmsāy	NUM	fifth (m.)	NumType=Ord,Gender=M	none	no	§7.2		
+ḥāmsāyt	NUM	fifth (f.)	NumType=Ord,Gender=F	none	no	§7.2		
+sādəs	NUM	sixth	NumType=Ord	none	no	§7.2		
+sādsāy	NUM	sixth (m.)	NumType=Ord,Gender=M	none	no	§7.2		
+sādsāyt	NUM	sixth (f.)	NumType=Ord,Gender=F	none	no	§7.2		
+sābəʿ	NUM	seventh	NumType=Ord	none	no	§7.2		
+sābʿāy	NUM	seventh (m.)	NumType=Ord,Gender=M	none	no	§7.2		
+sābʿāyt	NUM	seventh (f.)	NumType=Ord,Gender=F	none	no	§7.2		
+sāmnāy	NUM	eighth (m.)	NumType=Ord,Gender=M	none	no	§7.2		
+sāmnāyt	NUM	eighth (f.)	NumType=Ord,Gender=F	none	no	§7.2		
+tāsəʿ	NUM	ninth	NumType=Ord	none	no	§7.2		
+tāsʿāy	NUM	ninth (m.)	NumType=Ord,Gender=M	none	no	§7.2		
+tāsʿāyt	NUM	ninth (f.)	NumType=Ord,Gender=F	none	no	§7.2		
+ʿāsər	NUM	tenth	NumType=Ord	none	no	§7.2		
+ʿasrāy	NUM	tenth (m.)	NumType=Ord,Gender=M	none	no	§7.2		
+ʿāsrāyt	NUM	tenth (f.)	NumType=Ord,Gender=F	none	no	§7.2		
+ʿəsrāy	NUM	twentieth	NumType=Ord	none	no	§7.2		
+səssāy	NUM	sixtieth	NumType=Ord	none	no	§7.2		
+samānyāy	NUM	eightieth	NumType=Ord	none	no	§7.2		
+saʿāy	NUM	ninetieth	NumType=Ord	none	no	§7.2		
+məʼətāy	NUM	hundredth	NumType=Ord	none	no	§7.2		
+šəḥāy	NUM	thousandth	NumType=Ord	none	no	§7.2		
+sar	NUM	half	NumType=Frac	gem	no	§7.3		
+masallas	NUM	third part	NumType=Frac	none	no	§7.3		
+rəbəʿ	NUM	quarter	NumType=Frac	none	no	§7.3		
+rəbʿa	NUM	quarter	NumType=Frac	none	no	§7.3		
+ḥəmmasit	NUM	fifth part	NumType=Frac	none	no	§7.3		
+səbʿit	NUM	seventh part	NumType=Frac	none	no	§7.3		
+ʿəssarit	NUM	one tenth	NumType=Frac	none	no	§7.3		
+məʼətayit	NUM	a hundredth	NumType=Frac	none	no	§7.3		
+šəḥayit	NUM	a thousandth	NumType=Frac	none	no	§7.3		
+latu	COP	who/which is (3m.sg.)	Person=3,Number=Sg,Gender=M,Rel=Yes	none	no	§3.6 (iv)	ላቱ	
+lata	COP	who/which is (3f.sg.)	Person=3,Number=Sg,Gender=F,Rel=Yes	none	no	§3.6 (iv)	ላተ	
+latom	COP	who/which are (3m.pl.)	Person=3,Number=Pl,Gender=M,Rel=Yes	none	no	§3.6 (iv)	ላቶም	
+latan	COP	who/which are (3f.pl.)	Person=3,Number=Pl,Gender=F,Rel=Yes	none	no	§3.6 (iv)	ላተን	
+ʼəntu	COP	being (subordinate copula, after ʼət, dib)	Person=3,Subord=Yes	none	no	§4.1.3		
+ʼalab	AUX	there is not (negative existence)	Neg=Yes	cvc	no	§4.2.4		
+gabbəʼ	ADV	perhaps; it is possible	_	none	no	§4.5.2, §8.1.7.2		
+ʼigabbəʼ	ADV	it is not possible, must not	Neg=Yes	none	no	§4.5.2		

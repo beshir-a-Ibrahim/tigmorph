@@ -1,0 +1,248 @@
+# Raz (1973) closed-class gold: pronouns, demonstratives, copula, particles with suffixes, article, numerals,
+# adverbs, conjunctions, clitics. Columns: form (Raz transcription) <TAB> lemma <TAB> POS <TAB> features that must
+# be present (k=v,...; '_' = none) <TAB> source
+ʼana	ʼana	PRON	Person=1,Number=Sg	§3.1 table
+ḥəna	ḥəna	PRON	Person=1,Number=Pl	§3.1 table
+ʼənta	ʼənta	PRON	Person=2,Gender=M,Number=Sg	§3.1 table
+ʼənti	ʼənti	PRON	Person=2,Gender=F,Number=Sg	§3.1 table
+ʼəntum	ʼəntum	PRON	Person=2,Gender=M,Number=Pl	§3.1 table
+ʼəntən	ʼəntən	PRON	Person=2,Gender=F,Number=Pl	§3.1 table
+hətu	hətu	PRON	Person=3,Gender=M,Number=Sg	§3.1 table
+həta	həta	PRON	Person=3,Gender=F,Number=Sg	§3.1 table
+hətom	hətom	PRON	Person=3,Gender=M,Number=Pl	§3.1 table
+hətan	hətan	PRON	Person=3,Gender=F,Number=Pl	§3.1 table
+waʼəntum	ʼəntum	PRON	Cl=wa	§3.1.1
+wahətom	hətom	PRON	Cl=wa	§3.1.1
+wahətu	hətu	PRON	Cl=wa	§3.1.3
+hətama	həta	PRON	Encl=ma	§8.1.7
+tu	tu	COP	Gender=M,Number=Sg	§4.1 table
+ta	ta	COP	Gender=F,Number=Sg	§4.1 table
+tom	tom	COP	Gender=M,Number=Pl	§4.1 table
+tan	tan	COP	Gender=F,Number=Pl	§4.1 table
+tətu	tətu	COP	Expl=Yes	§4.1.5
+təta	təta	COP	Expl=Yes	§4.1.5
+ʼikon	ʼikon	COP	Neg=Yes	§4.1.1
+ʼiʼana	ʼana	PRON	Neg=Yes	§4.1.1
+ʼiʼənta	ʼənta	PRON	Neg=Yes	§4.1.1
+latu	latu	COP	Rel=Yes	§3.6 (iv)
+nosu	nos	PRON	Poss=3SgM	§3.2.1
+nosa	nos	PRON	Poss=3SgF	§3.2
+nosom	nos	PRON	Poss=3PlM	§3.2.1
+noskum	nos	PRON	Poss=2PlM	§3.2.1
+noše	nos	PRON	Poss=1Sg	§2.10.1 a
+nosnosom	nosnos	PRON	Poss=3PlM	§3.3.1
+nosnosan	nosnos	PRON	Poss=3PlF	§3.3.1
+ḥəd	ḥəd	PRON	_	§3.3.1
+nāyu	nāy	PRON	Poss=3SgM	§3.4
+nāyom	nāy	PRON	Poss=3PlM	§3.4
+nāyka	nāy	PRON	Poss=2SgM	§3.4
+nāye	nāy	PRON	Poss=1Sg	§3.4
+nāy	nāy	PRON	_	§3.4
+lanāyu	nāy	PRON	Art=Def,Poss=3SgM	§3.4
+nāyla	nāy	PRON	Art=Def	§2.11.2
+mi	mi	PRON	PronType=Int	§3.5
+man	man	PRON	PronType=Int	§3.5
+ʼayi	ʼayi	PRON	Gender=M	§3.5
+ʼaya	ʼaya	PRON	Gender=F	§3.5
+ʼayom	ʼayom	PRON	Number=Pl	§3.5
+ʼayan	ʼayan	PRON	Number=Pl	§3.5
+woro	woro	PRON	_	§3.7
+worot	worot	PRON	_	§3.7
+worotom	worot	PRON	Poss=3PlM	§7.1.3
+ḥatte	ḥatte	PRON	_	§3.7
+woroma	woro	PRON	Encl=ma	§3.7
+ḥattema	ḥatte	PRON	Encl=ma	§3.7
+manma	manma	PRON	_	§3.7
+ʼəgale	ʼəgale	PRON	_	§3.7
+fəlān	fəlān	PRON	_	§3.7
+gale	gale	PRON	_	§3.7
+galehom	gale	PRON	Poss=3PlM	§3.7 e
+dəla	dəla	PRON	_	§3.7
+sema	sema	PRON	_	§3.7
+semama	sema	PRON	Encl=ma	§3.7 h
+ʼəlli	ʼəlli	DEM	Gender=M,Number=Sg	§3.8 table
+ʼəlla	ʼəlla	DEM	Gender=F,Number=Sg	§3.8 table
+ʼəllom	ʼəllom	DEM	Gender=M,Number=Pl	§3.8 table
+ʼəllan	ʼəllan	DEM	Gender=F,Number=Pl	§3.8 table
+lahay	lahay	DEM	Gender=M,Number=Sg	§3.8 table
+lohay	lohay	DEM	Gender=M,Number=Sg	§3.8 table
+laha	laha	DEM	Gender=F,Number=Sg	§3.8 table
+loha	loha	DEM	Gender=F,Number=Sg	§3.8 table
+lahom	lahom	DEM	Gender=M,Number=Pl	§3.8 table
+lohom	lohom	DEM	Gender=M,Number=Pl	§3.8 table
+lahan	lahan	DEM	Gender=F,Number=Pl	§3.8 table
+lohan	lohan	DEM	Gender=F,Number=Pl	§3.8 table
+ʼəllima	ʼəlli	DEM	Encl=ma	§3.8 b
+ʼəllan	ʼəllan	DEM	_	§3.8 b
+ḥaqo	ḥaqo	PREP	_	§8.2.1(3)
+ḥaqohu	ḥaqo	PREP	Poss=3SgM	§2.10.2
+ḥaqoha	ḥaqo	PREP	Poss=3SgF	§8.1.6
+ḥante	ḥante	PREP	_	§8.2.1(5)
+ḥantehu	ḥante	PREP	Poss=3SgM	§2.10.2
+ḥanteka	ḥante	PREP	Poss=2SgM	§2.10.2
+məsəl	məsəl	PREP	_	§8.2.1(7)
+məslu	məsəl	PREP	Poss=3SgM	§2.10.2
+məsəlka	məsəl	PREP	Poss=2SgM	§2.10.2
+mən	mən	PREP	_	§8.2.1(12)
+mənnu	mən	PREP	Poss=3SgM	§2.10.2
+mənka	mən	PREP	Poss=2SgM	§2.10.2
+mənəna	mən	PREP	Poss=1Pl	§2.10.2
+mənnom	mən	PREP	Poss=3PlM	§3.7 b
+mənye	mən	PREP	Poss=1Sg	§8.1.7
+mənna	mən	PREP	Art=Def	§2.11.2
+ʼəb	ʼəb	PREP	_	§8.2.1(29)
+ʼəbbu	ʼəb	PREP	Poss=3SgM	§2.10.2
+bəka	ʼəb	PREP	Poss=2SgM	§2.10.2
+ʼəbba	ʼəb	PREP	Art=Def	§2.11.2
+ʼəbbəlli	ʼəb	PREP	Dem=ʼəlli	§3.8, §8.1.7
+ʼəbbəlla	ʼəb	PREP	Dem=ʼəlla	§8.1.5
+ʼət	ʼət	PREP	_	§8.2.1(30)
+ʼəttu	ʼət	PREP	Poss=3SgM	§2.10.2
+ʼəčče	ʼət	PREP	Poss=1Sg	§2.10.2
+ʼətna	ʼət	PREP	Poss=1Pl	§2.10.2
+ʼətta	ʼət	PREP	Art=Def	§2.11.2
+ʼəttəlli	ʼət	PREP	Dem=ʼəlli	§8.1.5
+ʼəl	ʼəl	PREP	_	§8.2.1(24)
+ʼəlu	ʼəl	PREP	Poss=3SgM	§2.10.2
+ʼəlom	ʼəl	PREP	Poss=3PlM	§2.10.2
+ʼəlye	ʼəl	PREP	Poss=1Sg	§2.10.2
+ʼəye	ʼəl	PREP	Poss=1Sg	§2.10.2
+ʼəlka	ʼəl	PREP	Poss=2SgM	§8.1.4
+ʼəlna	ʼəl	PREP	Poss=1Pl	§8.3.2
+laʼəlu	ʼəl	PREP	Rel=Yes,Poss=3SgM	§3.6 (vi)
+ʼəgəl	ʼəgəl	PREP	_	§8.2.1(34)
+ʼəglu	ʼəgəl	PREP	Poss=3SgM	§3.6 (vi)
+laʼəglu	ʼəgəl	PREP	Rel=Yes,Poss=3SgM	§3.6 (vi)
+ʼəgəlla	ʼəgəl	PREP	Art=Def	§2.11.2
+ʼəgəlna	ʼəgəl	PREP	Poss=1Pl	§8.3.2
+dib	dib	PREP	_	§8.2.1(42)
+dibba	dib	PREP	Art=Def	§2.11.2
+kəm	kəm	PREP	_	§8.2.1(36)
+kəmsal	kəmsal	PREP	_	§8.2.1(37)
+kəmsalhu	kəmsal	PREP	Poss=3SgM	§2.10.2
+kəmsalha	kəmsal	PREP	Poss=3SgF	§4.1.3
+ʼəmbal	ʼəmbal	PREP	_	§8.2.1(25)
+ʼəmbalhu	ʼəmbal	PREP	Poss=3SgM	§2.10.2
+ʼasək	ʼasək	PREP	_	§8.2.1(28)
+sabbat	sabbat	PREP	_	§8.2.1(17)
+qadam	qadam	PREP	_	§8.2.1(21)
+nāy	nāy	PRON	_	§8.2.1(23)
+fənge	fənge	PREP	_	§8.2.1(49)
+səməṭ	səməṭ	PREP	_	§8.2.1(16)
+kəl	kəl	ADJ	_	§2.10.2
+kəllu	kəl	ADJ	Poss=3SgM	§2.10.2
+kəllom	kəl	ADJ	Poss=3PlM	§2.10.2
+kəlna	kəl	ADJ	Poss=1Pl	§2.10.2
+bannu	ban	ADV	Poss=3SgM	§8.1.4
+baynye	bayn	ADV	Poss=1Sg	§8.1.4
+bərāqye	bərāq	ADV	Poss=1Sg	§8.1.1
+bərāqka	bərāq	ADV	Poss=2SgM	§8.1.1
+wala	la	DET	Cl=wa	§2.11.2
+wa	wa	CONJ	_	§8.3.2(1)
+ma	ma	CONJ	_	§8.3.2(2)
+wok	wok	CONJ	_	§8.3.2(3)
+daʼam	daʼam	CONJ	_	§8.3.2(5)
+daʼikon	daʼikon	CONJ	_	§8.3.2(6)
+ʼəbmi	ʼəbmi	SCONJ	_	§8.3.3(3)
+ʼəgəlmi	ʼəgəlmi	SCONJ	_	§8.3.3(4)
+ʼəndo	ʼəndo	SCONJ	_	§8.3.3(9)
+ʼənday	ʼənday	SCONJ	_	§8.3.3(10)
+ʼəwān	ʼəwān	SCONJ	_	§8.3.3(13)
+wakəd	wakəd	SCONJ	_	§8.3.3(16)
+dol	dol	SCONJ	_	§8.3.3(18)
+mənma	mənma	SCONJ	_	§8.1.7
+haye	haye	ADV	_	§8.1.7
+lāma	lāma	ADV	_	§8.1.7
+lāta	lāta	ADV	_	§8.1.7
+leṭa	leṭa	ADV	_	§8.1.7
+mami	mami	ADV	_	§8.1.7
+ʼabba	ʼabba	ADV	_	§8.1.7
+ʼənde	ʼənde	ADV	_	§8.1.7
+ʼagədda	ʼagədda	ADV	_	§8.1.7
+kama	kama	ADV	_	§8.1.7
+kət	kət	ADV	_	§8.1.7
+kəʼənna	kəʼənna	ADV	_	§8.1.7
+kakəʼənna	kəʼənna	ADV	Cl=ka	§8.1.7
+ʿādu	ʿādu	ADV	_	§8.1.7
+gadəm	gadəm	ADV	_	§8.1.7
+ʼaze	ʼaze	ADV	_	§8.1.6
+ʼazema	ʼaze	ADV	Encl=ma	§8.1.7
+kaʼaze	ʼaze	ADV	Cl=ka	§8.1.7
+mədol	mədol	ADV	_	§8.1.7.1
+ʼəttaya	ʼəttaya	ADV	_	§8.1.7.1
+ʼəšwo	ʼəšwo	ADV	Gender=M	§8.1.7.1
+ʼəšwa	ʼəšwa	ADV	Gender=F	§8.1.7.1
+ʼəšwom	ʼəšwom	ADV	Number=Pl	§8.1.7.1
+ʼəšwan	ʼəšwan	ADV	Number=Pl	§8.1.7.1
+kaʼafo	kaʼafo	ADV	_	§8.1.7.1
+kam	kam	ADV	_	§8.1.7.1
+lābəd	lābəd	ADV	_	§8.1.7.2
+kando	kando	ADV	_	§8.1.7.2
+laʿal	laʿal	ADV	_	§8.1.5
+taḥat	taḥat	PREP	_	§8.1.5
+ʼənze	ʼənze	ADV	_	§8.1.5
+ken	ken	ADV	_	§8.1.5
+yom	yom	ADV	_	§8.1.6
+māle	māle	ADV	_	§8.1.6
+faǧər	faǧər	ADV	_	§8.1.6
+fangoḥ	fangoḥ	ADV	_	§8.1.6
+ḥar	ḥar	ADV	_	§8.1.6
+dima	dima	ADV	_	§8.1.6
+lazayəd	lazayəd	ADV	_	§8.1.4
+ʼagid	ʼagid	ADV	_	§8.1.4
+bəlāš	bəlāš	ADV	_	§8.1.4
+ʼafo	ʼafo	INTJ	_	§8.1.7.3
+ʿābe	ʿābe	INTJ	_	§8.1.7.3
+ʼifālu	ʼifālu	INTJ	_	§8.1.7.3
+ʿabi	ʿabi	INTJ	_	§8.1.7.3
+bəzuḥ	bəzuḥ	ADJ	_	§8.1.2
+sanni	sanni	ADJ	_	§8.1.2
+woro	woro	PRON	_	§7.1
+kəlʼot	kəlʼot	NUM	Gender=M	§7.1
+kəlʼe	kəlʼe	NUM	Gender=F	§7.1
+salas	salas	NUM	NumType=Card	§7.1
+ʼarbaʿ	ʼarbaʿ	NUM	NumType=Card	§7.1
+ḥaməs	ḥaməs	NUM	NumType=Card	§7.1
+səs	səs	NUM	NumType=Card	§7.1
+sabuʿ	sabuʿ	NUM	NumType=Card	§7.1
+samān	samān	NUM	NumType=Card	§7.1
+səʿ	səʿ	NUM	NumType=Card	§7.1
+ʿasər	ʿasər	NUM	NumType=Card	§7.1
+ʿəsra	ʿəsra	NUM	NumType=Card	§7.1
+salāsa	salāsa	NUM	NumType=Card	§7.1
+ʼarbəʿa	ʼarbəʿa	NUM	NumType=Card	§7.1
+ḥəmsa	ḥəmsa	NUM	NumType=Card	§7.1
+səssa	səssa	NUM	NumType=Card	§7.1
+sabʿa	sabʿa	NUM	NumType=Card	§7.1
+samānya	samānya	NUM	NumType=Card	§7.1
+tasʿa	tasʿa	NUM	NumType=Card	§7.1
+məʼət	məʼət	NUM	NumType=Card	§7.1
+ʼamʼāt	ʼamʼāt	NUM	Number=Pl	§7.1
+šəḥ	šəḥ	NUM	NumType=Card	§7.1
+ʼašḥāt	ʼašḥāt	NUM	Number=Pl	§7.1
+waḥatte	ḥatte	PRON	Cl=wa	§7.1.1
+wasəs	səs	NUM	Cl=wa	§7.1.1
+wasalas	salas	NUM	Cl=wa	§7.1.1
+worworot	worworot	NUM	NumType=Dist	§7.1.2
+ḥatḥatte	ḥatḥatte	NUM	NumType=Dist	§7.1.2
+kəlkəlʼot	kəlkəlʼot	NUM	NumType=Dist	§7.1.2
+salsalas	salsalas	NUM	NumType=Dist	§7.1.2
+kālʼāy	kālʼāy	NUM	NumType=Ord	§7.2
+kālʼāyt	kālʼāyt	NUM	NumType=Ord	§7.2
+sālsāy	sālsāy	NUM	NumType=Ord	§7.2
+sādsāy	sādsāy	NUM	NumType=Ord	§7.2
+sābʿāy	sābʿāy	NUM	NumType=Ord	§7.2
+tāsʿāy	tāsʿāy	NUM	NumType=Ord	§7.2
+ʿasrāy	ʿasrāy	NUM	NumType=Ord	§7.2
+qadāmāy	qadāmāy	NUM	NumType=Ord	§7.2
+waqadāmāy	qadāmāy	NUM	Cl=wa	§7.2
+wakālʼāy	kālʼāy	NUM	Cl=wa	§7.2
+ʿəsrāy	ʿəsrāy	NUM	NumType=Ord	§7.2
+məʼətāy	məʼətāy	NUM	NumType=Ord	§7.2
+šəḥāy	šəḥāy	NUM	NumType=Ord	§7.2
+lakālʼāyt	kālʼāyt	NUM	Art=Def	§7.2
+sar	sar	NUM	NumType=Frac	§7.3
+sarra	sar	NUM	Poss=3SgF	§2.10.1 e
+masallas	masallas	NUM	NumType=Frac	§7.3
+ḥəmmasit	ḥəmmasit	NUM	NumType=Frac	§7.3
+ʿəssarit	ʿəssarit	NUM	NumType=Frac	§7.3
