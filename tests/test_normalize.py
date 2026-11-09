@@ -29,6 +29,9 @@ def test_form_pairs_only_at_full():
 
 def test_chars():
     assert normalize_chars('ሰብ፡ዓድ::  ሰብ , ዓድ.') == 'ሰብ ዓድ። ሰብ፣ ዓድ።'
+    assert normalize_chars('ሰብ፡ ዓድ: ሰብ:') == 'ሰብ፣ ዓድ፣ ሰብ።'
+    assert normalize_chars('ሰብ፡ዓድ፡፡') == 'ሰብ ዓድ።'
+    assert normalize_chars('10:30 ሰብ') == '10:30 ሰብ'
     assert Normalizer('chars')('ህለ') == 'ህለ'
 
 

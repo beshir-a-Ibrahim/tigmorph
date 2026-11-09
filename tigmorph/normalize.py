@@ -60,10 +60,13 @@ def normalize_chars(text, wordspace=True, punctuation=True):
     t = unicodedata.normalize('NFC', text)
     t = ''.join(_HOMO.get(c, c) for c in t)
     t = re.sub(r'[-]', '', t)                  # symbol-font bullets pasted from word processors
-    if wordspace:
-        t = re.sub(r'\s*፡\s*', ' ', t)                     # ፡ (old word separator) -> space
     if punctuation:
-        t = re.sub(rf'(?<={GEEZ})\s*::?(?=\s|$)', '።', t)    # "::" typed for ።
+        t = re.sub(rf'({GEEZ})[ \t]*(?:::|፡፡)', r'\1።', t)         # "::" / ፡፡ typed for ።
+        t = re.sub(rf'({GEEZ})[ \t]*[:፡][ \t]*$', r'\1።', t, flags=re.M)   # ፡ or : ending a line -> ።
+        t = re.sub(rf'({GEEZ})[ \t]*[:፡](?=\s|["«“(])', r'\1፣', t)  # ፡ or : before a space is a comma -> ፣
+    if wordspace:
+        t = re.sub(r'[ \t]*፡[ \t]*', ' ', t)                 # ፡ between words (old word separator) -> space
+    if punctuation:
         t = re.sub(rf'(?<={GEEZ})\.(?=\s|$|["”’»)])', '።', t)   # full stop after a Tigre word -> ።
         t = re.sub(rf'({GEEZ})[ \t]*,(?=\s|$)', r'\1፣', t)    # comma after a Tigre word -> ፣
         t = t.replace('፧', '?')                            # the corpus mostly uses ? (18,320 vs 2,625)
