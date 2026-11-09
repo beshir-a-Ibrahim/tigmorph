@@ -24,6 +24,10 @@ dependencies = []          # the run time is pure Python
 build = ["pynini>=2.1.5", "openpyxl"]  # only to recompile the grammar / lexicon: python -m tigmorph.build
 test = ["pytest"]
 
+[project.urls]
+Homepage = "https://github.com/beshir-a-Ibrahim/tigmorph"
+Issues = "https://github.com/beshir-a-Ibrahim/tigmorph/issues"
+
 [project.scripts]
 tigmorph = "tigmorph.__main__:main"
 

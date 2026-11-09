@@ -26,13 +26,13 @@ annotation from an 11-million-word Tigre corpus.
 No dependencies. Python 3.8 or later on Linux, macOS or Windows.
 
 ```bash
-pip install git+https://github.com/<your-account>/tigmorph.git
+pip install git+https://github.com/beshir-a-Ibrahim/tigmorph.git
 ```
 
 Or clone the repository and use it directly, without installing:
 
 ```bash
-git clone https://github.com/<your-account>/tigmorph.git
+git clone https://github.com/beshir-a-Ibrahim/tigmorph.git
 cd tigmorph
 python3 -m tigmorph ልቀትል
 ```
@@ -86,6 +86,7 @@ Text collected from many sources writes the same word in several ways (ሀለ / 
 built from several sources has one type per word.
 
 ```sh
+# python3 -m tigmorph normalize ... if you use the repository without installing
 tigmorph normalize corpus.txt -o corpus.norm.txt --report report.md --log changes.tsv
 tigmorph normalize data.jsonl --field text -o data.norm.jsonl --keep-original
 tigmorph normalize a.txt b.csv c.parquet --column text -o normalized/     # parquet needs pyarrow
@@ -99,11 +100,13 @@ N('ህለ እት ዓድ፡ሠብ:: ኢዐለ')            # 'ሀለ እት ዓ�
 
 Levels:
 
-- `chars`: character level only. Unicode NFC, letters with one sound in Tigre (ሠ→ሰ, ፀ→ጸ, ኀ→ሐ), ፡ as a space,
-  Ge'ez punctuation, spaces.
+- `chars`: character level only. Unicode NFC, letters with one sound in Tigre (ሠ→ሰ, ፀ→ጸ, ኀ→ሐ), Ge'ez punctuation
+  and spaces. ፡ between two letters becomes a space; ፡ or : before a space becomes ፣; `::` and ፡ or : at the end of a
+  line become ።.
 - `safe` (default): `chars` plus the spelling table, but only for pairs that tigmorph reads as the same word and
   that differ only by a known free alternation. These alternations are the vowel on a laryngal (ሀ/ህ, አ/ኣ, ሐ/ሓ,
-  ዐ/ዓ), an inserted አ, ኸ/ከ, ቐ/ቀ, and the negative ይ-/የ-/ኢ-.
+  ዐ/ዓ), an inserted አ, ኸ/ከ, ቐ/ቀ, and the negative ይ-/የ-/ኢ-. Pairs checked by a native speaker
+  (`tigmorph/fst/standard_review.tsv`) are also applied, and pairs marked as different words are never merged.
 - `full`: every row of the table, including pairs that differ in other letters (column `kind` = `form`). Review
   those first.
 
