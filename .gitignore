@@ -6,3 +6,4 @@ dist/
 .pytest_cache/
 data/corpus/
 data/gold/raz_sentences.json
+.DS_Store
